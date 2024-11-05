@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Titik Tiga</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .menu {
+            display: none;
+            flex-direction: column;
+            background-color: #444;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            width: 150px;
+        }
+        .menu a {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid #555;
+        }
+        .menu a:hover {
+            background-color: #555;
+        }
+        .menu-btn {
+            cursor: pointer;
+        }
+        #menu-btn:checked ~ .menu {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>Logo</div>
+        <label for="menu-btn" class="menu-btn">☰</label>
+        <input type="checkbox" id="menu-btn" style="display: none;">
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('click', function(event) {
+            const menuBtn = document.getElementById('menu-btn');
+            const menu = document.querySelector('.menu');
+            const isClickInside = menu.contains(event.target) || menuBtn.contains(event.target);
+
+            if (!isClickInside) {
+                menuBtn.checked = false;
+            }
+        });
+    </script>
+</body>
+</html>
