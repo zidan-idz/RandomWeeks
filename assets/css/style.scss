@@ -1,0 +1,250 @@
+---
+---
+
+/* ============================================================
+   GLOBAL STYLES
+============================================================ */
+body {
+  background-color: #212529 !important;
+  color: #fff;
+}
+
+/* ============================================================
+   HERO SECTION
+============================================================ */
+.hero-section {
+  background-color: #212529;
+}
+
+/* Divider */
+.divider {
+  width: 140px;
+  height: 2px;
+  background-color: #cfd3da;
+  margin-left: 0;
+}
+
+/* ============================================================
+   POST CARD
+============================================================ */
+.post-card {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+}
+
+/* Thumbnail */
+.post-thumb {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.post-thumb.placeholder {
+  background-color: #c9c9c9;
+}
+
+/* Info text */
+.post-info {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Posts section */
+.posts-section {
+  background-color: #0f141a;
+}
+
+/* ============================================================
+   HEADER SECTION
+============================================================ */
+.site-header {
+  background-color: #212529;
+  border-bottom: 1px solid #2a2f36;
+}
+
+/* Navbar brand (logo) */
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* Navbar links */
+.nav-link {
+  color: #cfd3da !important;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Search box */
+.search-box {
+  background-color: #1b222b;
+  color: #fff;
+  border: 1px solid #333a44;
+  padding: 3px 8px;
+}
+
+.search-box::placeholder {
+  color: #999;
+}
+
+/* Border line below header */
+.site-header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #1b1f26;
+}
+
+/* ============================================================
+   FOOTER SECTION
+============================================================ */
+.site-footer {
+  background-color: #ffffff3c;
+  border-top: 1px solid #2a2f36;
+  color: #cfd3da;
+}
+
+.site-footer small {
+  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+}
+
+.site-footer .text-muted {
+  color: #9aa0a8 !important;
+}
+
+.site-footer .text-light {
+  color: #ffffff !important;
+}
+
+/* ============================================================
+   POST HEADER
+============================================================ */
+.post-header {
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+}
+
+.post-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(65%);
+  transition: transform 0.5s ease;
+}
+
+.post-header:hover .post-hero-img {
+  transform: scale(1.05);
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+}
+
+/* ============================================================
+   POST CONTENT
+============================================================ */
+.post-content {
+  background-color: #212529;
+  color: #d4d6da;
+  line-height: 1.8;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content strong {
+  color: #fff;
+}
+
+.post-content em {
+  color: #cfd2d7;
+}
+
+.post-content a {
+  color: #5ea0ff;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   QUOTES, HR, ETC
+============================================================ */
+.post-content blockquote {
+  border-left: 4px solid #3b4655;
+  padding-left: 1rem;
+  color: #0053e2;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.post-content hr {
+  border-color: #333a44;
+  margin: 2rem 0;
+}
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+@media (max-width: 768px) {
+  .post-header {
+    height: 40vh;
+  }
+
+  .post-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .post-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .divider {
+    margin: 0 auto;
+  }
+
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+
+  .post-thumb {
+    height: 150px;
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.bg-smoke{
+  background-color: rgba(255, 255, 255, 0.037);
+}
+
+.posts-section{
+  background-color: #212529;
+}

@@ -1,0 +1,83 @@
+---
+layout: default
+title: RandomWeeks
+---
+
+<!-- =======================
+     HERO + 2 BERITA TERBARU
+======================== -->
+<section class="hero-section py-5 border-bottom">
+  <div class="container-xl">
+    <div class="row g-4 align-items-start">
+      <!-- HERO LEFT -->
+      <div class="col-lg-6 text-center text-lg-start mt-lg-5 pt-lg-2">
+        <h1 class="fw-bold text-white display-5 mb-3">
+          Random, Honest, <br> And Human.
+        </h1>
+        <p class="text-muted small mb-2">
+          Tidak selalu penting, tapi selalu nyata.
+        </p>
+        <p class="text-secondary" style="max-width: 500px;">
+          Ruang sederhana untuk menulis hal-hal acak, tentang ide, perasaan, dan hal-hal kecil
+          yang membuat hidup terasa nyata.
+        </p>
+        <div class="divider my-4"></div>
+      </div>
+
+      <!-- 2 BERITA TERBARU -->
+      <div class="col-lg-6">
+        <p class="text-muted small mt-0 mb-3 text-lg-center">
+          <i class="bi bi-journal-text"></i> Postingan Terbaru
+        </p>
+        <div class="row g-3">
+          {% assign latest_posts = site.posts | slice: 0, 2 %}
+          {% for post in latest_posts %}
+          <div class="col-12">
+            <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none">
+              {% if post.image %}
+              <div class="post-thumb" style="background-image: url('{{ post.image }}');"></div>
+              {% else %}
+              <div class="post-thumb placeholder"></div>
+              {% endif %}
+              <div class="post-info text-center p-3">
+                <h5 class="fw-bold mb-1 text-dark">{{ post.title }}</h5>
+                <p class="text-dark small mb-0">{{ post.excerpt | strip_html | truncate: 90 }}</p>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =======================
+     4 BERITA TERPOPULER
+======================== -->
+<section class="posts-section py-5">
+  <div class="container-xl">
+    <p class="text-muted small mb-3 text-center">
+      <i class="bi bi-fire"></i> Postingan Terpopuler
+    </p>
+
+    <div class="row g-4">
+      {% assign popular_posts = site.posts | slice: 2, 4 %}
+      {% for post in popular_posts %}
+      <div class="col-md-6 col-lg-6">
+        <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none h-100">
+          {% if post.image %}
+          <div class="post-thumb" style="background-image: url('{{ post.image }}');"></div>
+          {% else %}
+          <div class="post-thumb placeholder"></div>
+          {% endif %}
+          <div class="post-info text-center p-3">
+            <h5 class="fw-bold mb-1 text-dark">{{ post.title }}</h5>
+            <p class="text-dark small mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
