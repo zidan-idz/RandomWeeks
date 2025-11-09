@@ -1,0 +1,50 @@
+---
+layout: default
+title: Arsip Tulisan
+permalink: /archive/
+---
+
+<div class="container my-5">
+    <div class="mx-1 mx-lg-0">
+
+        <!-- JUDUL DAN DESKRIPSI -->
+        <div class="text-center mb-4">
+            <p class="text-muted mx-auto" style="max-width: 600px;">
+                Kumpulan seluruh tulisan yang pernah diterbitkan di <strong>RandomWeeks</strong>,
+                diurut berdasarkan tahun. Jelajahi ide-ide dan cerita dari waktu ke waktu.
+            </p>
+            <hr class="divider mx-auto mb-3" style="border-top: 2px solid; width: 80px;">
+        </div>
+
+        <!-- PILIHAN TAHUN -->
+        {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+        <div class="text-center mb-4">
+            {% for year in postsByYear %}
+            <a href="#year-{{ year.name }}" class="btn btn-outline-primary btn-sm me-2 mb-2">
+                {{ year.name }}
+            </a>
+            {% endfor %}
+        </div>
+
+        <!-- DAFTAR POST BERDASARKAN TAHUN -->
+        {% for year in postsByYear %}
+        <section id="year-{{ year.name }}" class="mb-5">
+            <h3 class="fw-semibold text-primary border-bottom pb-2 mb-4">{{ year.name }}</h3>
+
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+                {% for post in year.items %}
+                <div class="col">
+                    <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+                        <div class="p-3 border rounded h-100 hover-shadow-sm">
+                            <h6 class="fw-semibold text-light mb-1">{{ post.title }}</h6>
+                            <small class="text-muted d-block mb-2">{{ post.date | date: "%d %B %Y" }}</small>
+                            <p class="text-secondary mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+    </div>
+</div>

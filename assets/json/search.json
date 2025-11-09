@@ -1,0 +1,14 @@
+---
+layout: none
+permalink: /assets/json/search.json
+---
+[
+  {% for post in site.posts %}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": "{{ site.baseurl }}{{ post.url }}",
+      "date": "{{ post.date | date: '%Y-%m-%d' }}",
+      "excerpt": {{ post.content | strip_html | truncate: 150 | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
