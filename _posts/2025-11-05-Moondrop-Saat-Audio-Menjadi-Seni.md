@@ -3,7 +3,7 @@ layout: post
 title: "Moondrop: Saat Audio Menjadi Seni"
 date: "2025-11-07"
 excerpt: "Menelusuri dunia Moondrop, brand earphone yang memadukan desain elegan dan kualitas suara yang menakjubkan."
-image: "/assets/images/posts/moondrop.jpg"
+image: "/assets/images/posts/moondrop.webp"
 categories: [Review, Audio]
 tags: [Moondrop, earphone, audio, review, musik]
 ---

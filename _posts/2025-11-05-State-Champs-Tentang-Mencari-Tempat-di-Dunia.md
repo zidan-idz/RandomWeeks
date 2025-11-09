@@ -3,7 +3,7 @@ layout: post
 title: "State Champs: Tentang Mencari Tempat di Dunia"
 date: "2025-11-08"
 excerpt: "Interpretasi dan terjemahan  dari lagu 'If I'm Lucky' oleh State Champs — kisah muda tentang mencari arti, cinta, dan tempat untuk kembali."
-image: "/assets/images/posts/ifimlucky.jpg"
+image: "/assets/images/posts/ifimlucky.webp"
 categories: [Music, Reflection]
 tags: [State Champs, pop punk, lirik, terjemahan, refleksi]
 ---

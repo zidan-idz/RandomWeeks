@@ -3,7 +3,7 @@ layout: post
 title: "Tentang Hujan dan Pikiran Acak"
 date: "2025-11-05"
 excerpt: "Catatan pendek tentang hujan, kenangan, dan hal-hal kecil yang muncul di kepala saat dunia melambat"
-image: "/assets/images/posts/rain.jpg"
+image: "/assets/images/posts/rain.webp"
 categories: [Refleksi, Harian]
 tags: [hujan, perasaan, kehidupan, malam]
 ---
