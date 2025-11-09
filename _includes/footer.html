@@ -1,7 +1,14 @@
-<footer class="site-footer mt-auto border-top">
-  <div class="container-xl text-center py-3">
-    <small class="text-muted">
-      &copy;Copyrights <span class="fw-semibold text-light">RandomWeeks</span> 2025
-    </small>
+<footer class="site-footer mt-auto border-top text-light">
+  <div class="container-xl text-center py-4">
+    <p class="mb-1 small">
+      &copy; {{ site.time | date: "%Y" }} <span class="fw-semibold">{{ site.title | default: "RandomWeeks" }}</span>. All rights reserved.
+    </p>
+    <p class="mb-1 small">
+      Made with <span class="heart">❤️</span> using <span class="highlight">Jekyll</span> by <span class="fw-semibold">Zidan Idz</span>
+    </p>
+    <p class="mb-0 small">
+      <a href="/about" class="text-decoration-none text-info mx-2">About</a> |
+      <a href="/blog" class="text-decoration-none text-info mx-2">Blog</a>
+    </p>
   </div>
 </footer>
