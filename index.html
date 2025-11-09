@@ -53,31 +53,33 @@ title: RandomWeeks
 </section>
 
 <!-- =======================
-     4 BERITA TERPOPULER
+     POSTINGAN LAINNYA (tanpa 2 postingan terbaru)
 ======================== -->
 <section class="posts-section py-5">
   <div class="container-xl">
-    <p class="text-muted small mb-3 text-center">
-      <i class="bi bi-fire"></i> Postingan Terpopuler
+    <p class="text-muted small mb-3 text-lg-center">
+      <i class="bi bi-folder2-open me-2"></i> Postingan Lainnya
     </p>
 
     <div class="row g-4">
-      {% assign popular_posts = site.posts | slice: 2, 4 %}
-      {% for post in popular_posts %}
-      <div class="col-md-6 col-lg-6">
-        <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none h-100">
-          {% if post.image %}
-          <div class="post-thumb" style="background-image: url('{{ post.image }}');"></div>
-          {% else %}
-          <div class="post-thumb placeholder"></div>
-          {% endif %}
-          <div class="post-info text-center p-3">
-            <h5 class="fw-bold mb-1 text-dark">{{ post.title }}</h5>
-            <p class="text-dark small mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
-          </div>
-        </a>
-      </div>
+      {% for post in site.posts %}
+        {% if forloop.index > 2 %}
+        <div class="col-md-6 col-lg-6">
+          <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none h-100">
+            {% if post.image %}
+            <div class="post-thumb" style="background-image: url('{{ post.image }}');"></div>
+            {% else %}
+            <div class="post-thumb placeholder"></div>
+            {% endif %}
+            <div class="post-info text-center p-3">
+              <h5 class="fw-bold mb-1 text-dark">{{ post.title }}</h5>
+              <p class="text-dark small mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+            </div>
+          </a>
+        </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
+

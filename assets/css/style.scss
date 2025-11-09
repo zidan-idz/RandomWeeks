@@ -248,3 +248,53 @@ body {
 .posts-section{
   background-color: #212529;
 }
+
+/* ==========================
+   POPUP MENU (FIXED VERSION)
+========================== */
+.popup-menu {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 20, 23, 0.98);
+  backdrop-filter: blur(6px);
+  display: none;              /* default: sembunyi */
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup-menu.active {
+  display: flex !important;   /* munculkan hanya jika aktif */
+  opacity: 1;
+}
+
+.popup-content {
+  text-align: center;
+  animation: fadeSlideIn 0.3s ease;
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.popup-menu .btn-close {
+  filter: invert(1);
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.popup-menu .btn-close:hover {
+  opacity: 1;
+}
+
+/* Sembunyikan popup di layar besar */
+@media (min-width: 992px) {
+  #popupMenu {
+    display: none !important;
+  }
+}
