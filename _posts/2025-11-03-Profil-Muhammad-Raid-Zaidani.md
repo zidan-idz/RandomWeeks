@@ -70,6 +70,8 @@ Setiap proyek menjadi sarana belajar dan memperluas kemampuan teknis saya.
 
 Saya percaya bahwa perkembangan diri tidak selalu harus bersama orang lain. Fokus, konsistensi, dan pembelajaran mandiri sering kali lebih efektif. Filosofi ini saya terapkan baik dalam belajar, coding, maupun membangun proyek pribadi.
 
+---
+
 ### Funfact
 Saya memiliki dua identitas digital:
 - **Zidan IDz** → Digunakan sebagai identitas utama, profil profesional, dan nama developer saya.
