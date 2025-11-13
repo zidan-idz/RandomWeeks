@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Frieren: Tentang Waktu dan Kehidupan"
-date: "2025-11-08"
+date: "2025-11-09"
 excerpt: "Sebuah refleksi dari anime Frieren yang menelusuri makna waktu, kehidupan, dan hubungan antarmanusia melalui perjalanan sang penyihir abadi."
 image: "/assets/images/posts/frieren.webp"
 categories: [Anime, Review]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kenapa Robot di Film Sering Disebut Android?"
-date: "2025-11-09"
+date: "2025-11-08"
 excerpt: "Membahas asal-usul istilah 'android' dan kenapa istilah ini begitu sering digunakan dalam film, anime, dan karya fiksi ilmiah untuk menggambarkan robot mirip manusia."
 image: "/assets/images/posts/AsroBoy.webp"
 categories: [Teknologi, Budaya]
