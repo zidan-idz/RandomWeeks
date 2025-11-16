@@ -5,7 +5,7 @@ date: "2025-11-08"
 excerpt: "Membahas asal-usul istilah 'android' dan kenapa istilah ini begitu sering digunakan dalam film, anime, dan karya fiksi ilmiah untuk menggambarkan robot mirip manusia."
 image: "/assets/images/posts/AsroBoy.webp"
 categories: [Teknologi, Budaya]
-tags: [android, robot, fiksi, budaya, teknologi]
+tags: [Android, Robot, Fiksi, Budaya, Teknologi]
 ---
 
 Setiap kali menonton film atau anime bertema masa depan, pasti ada robot yang disebut **android**.  

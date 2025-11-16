@@ -14,7 +14,7 @@ tags: [MuhammadRaidZaidani, WebDeveloper, Python, Mahasiswa, Indonesia]
 **Nama Panggilan:** Zidan  
 **Asal:** Lombok, Indonesia  
 **Agama:** Islam  
-**Saat Ini:** Mahasiswa Semester 7, Jurusan Sistem Informasi
+**Saat Ini:** Mahasiswa Semester 7, Jurusan Sistem Informasi  
 
 **Kontak:**  
 - Email: zidansample@email.com  
@@ -42,14 +42,14 @@ Saya suka menulis kode yang bersih, efisien, dan mudah dibaca, serta selalu menc
 ### Proyek & Kontribusi
 
 Beberapa proyek yang pernah saya kerjakan:  
-1. **Theme-Me** - Script Ubah Tampilan Termux Otomatis
-2. **TES-SDM** - Web Permainan Tanya Jawab
-3. **RandomWeeks** - Web Blog Pribadi (Bukan Web Portofolio)
+1. **Theme-Me** - Script Ubah Tampilan Termux Otomatis  
+2. **TES-SDM** - Web Permainan Tanya Jawab  
+3. **RandomWeeks** - Web Blog Pribadi (Bukan Web Portofolio)  
 
-Beberapa proyek yang saya rencanakan:
-1. **Chordiz** - Web Komunitas Music
-2. **Parkirzz** - Aplikasi Pengelolaan Parkir
-3. **YuzuPy** - Tools Python Serbaguna
+Beberapa proyek yang saya rencanakan:  
+1. **Chordiz** - Web Komunitas Music  
+2. **Parkirzz** - Aplikasi Pengelolaan Parkir  
+3. **YuzuPy** - Tools Python Serbaguna  
 
 Setiap proyek menjadi sarana belajar dan memperluas kemampuan teknis saya.
 
@@ -64,23 +64,24 @@ Setiap proyek menjadi sarana belajar dan memperluas kemampuan teknis saya.
 
 ---
 
-### Filosofi Hidup
+### Motto & Filosofi Hidup
 
-> "I will keep growing, even if I am alone."
+> "Terus melangkah dengan percaya diri."
 
-Saya percaya bahwa perkembangan diri tidak selalu harus bersama orang lain. Fokus, konsistensi, dan pembelajaran mandiri sering kali lebih efektif. Filosofi ini saya terapkan baik dalam belajar, coding, maupun membangun proyek pribadi.
+Saya percaya bahwa setiap langkah kecil yang konsisten akan membawa kemajuan. Fokus pada kemampuan diri sendiri, belajar dari pengalaman, dan berjalan dengan percaya diri adalah kunci untuk berkembang, baik dalam belajar, coding, maupun membangun proyek pribadi.
 
 ---
 
 ### Funfact
-Saya memiliki dua identitas digital:
-- **Zidan IDz** → Digunakan sebagai identitas utama, profil profesional, dan nama developer saya.
+
+Saya memiliki dua identitas digital:  
+- **Zidan IDz** → Digunakan sebagai identitas utama, profil profesional, dan nama developer saya.  
 - **ZeyShyy** → Digunakan sebagai identitas sekunder, biasanya untuk hal-hal yang berhubungan dengan anime, dorama, dan minat pribadi lainnya.
 
 ---
 
 📫 **Terhubung dengan saya:**  
-- [Facebook](https://facebook.com/muhammadraidzaidani)   
+- [Facebook](https://facebook.com/muhammadraidzaidani)  
 - [Instagram](https://instagram.com/zidan_idz)  
 - [GitHub](https://github.com/zidan-idz)  
-- [Email](mailto:zeyshyy@gmail.com)  
+- [Email](mailto:zeyshyy@gmail.com)

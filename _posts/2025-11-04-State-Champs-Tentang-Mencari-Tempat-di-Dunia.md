@@ -1,32 +1,14 @@
 ---
 layout: post
-title: "State Champs: Tentang Mencari Tempat di Dunia"
+title: "State Champs: Lirik & Terjemahan 'If I’m Lucky'"
 date: "2025-11-04"
-excerpt: "Interpretasi dan terjemahan  dari lagu 'If I'm Lucky' oleh State Champs — kisah muda tentang mencari arti, cinta, dan tempat untuk kembali."
+excerpt: "Lirik asli dan terjemahan lagu 'If I'm Lucky' oleh State Champs."
 image: "/assets/images/posts/ifimlucky.webp"
-categories: [Music, Reflection]
-tags: [State Champs, pop punk, lirik, terjemahan, refleksi]
+categories: [Music]
+tags: [State Champs, Pop Punk, Lirik, Terjemahan]
 ---
 
-**“If I’m Lucky”** adalah lagu yang terdengar ringan, tapi menyimpan **kerentanan yang diam-diam dalam**.  
-Dirilis oleh **State Champs** lewat album *The Acoustic Things (2014)*, lagu ini bercerita tentang **pencarian jati diri, perasaan yang tak pasti, dan keinginan sederhana untuk dimengerti.**
-
-Tidak ada teriakan atau dentuman drum yang bising—hanya gitar akustik dan suara yang terdengar jujur.  
-Di balik nada cerianya, lagu ini seolah menggambarkan **momen sunyi di antara dua orang yang belum tahu apakah harus bertahan atau melepaskan.**
-
----
-
-### <i class="bi bi-journal-text me-2"></i> Makna dan Refleksi
-
-“If I’m Lucky” adalah potret seseorang yang **masih berusaha menemukan tempatnya di dunia**, sambil terjebak di antara rasa ingin memiliki dan sadar diri bahwa hubungan itu mungkin tak akan berhasil.  
-Ia tahu dirinya belum sempurna, tapi tetap ingin mencoba—sekadar berharap “kalau aku beruntung, kamu mau tinggal sedikit lebih lama.”
-
-Liriknya mengandung *kerapuhan khas masa muda*: jujur, tapi bingung.  
-Tidak muluk-muluk. Tidak dramatis. Hanya seseorang yang ingin dipahami tanpa perlu banyak janji.
-
----
-
-### <i class="bi bi-translate me-2"></i> Lirik & Terjemahan 
+### Lirik & Terjemahan
 
 > **Hello sunshine, what's your name today?**  
 > Halo mentari, siapa namamu hari ini?  
@@ -35,7 +17,7 @@ Tidak muluk-muluk. Tidak dramatis. Hanya seseorang yang ingin dipahami tanpa per
 > **Do you really want to be with me?**  
 > Apa kamu benar-benar ingin bersamaku?  
 > **Hello summer, or should I say goodbye?**  
-> Halo musim panas, atau seharusnya aku bilang selamat tinggal?
+> Halo musim panas, atau seharusnya aku bilang selamat tinggal?  
 
 > **Well it's been so long but I'm still thinking**  
 > Sudah lama sekali, tapi aku masih memikirkannya  
@@ -94,35 +76,15 @@ Tidak muluk-muluk. Tidak dramatis. Hanya seseorang yang ingin dipahami tanpa per
 > **I'm just hanging on**  
 > Aku hanya bertahan  
 > **Hello sunshine**  
-> Halo mentari
+> Halo mentari  
 
----
+### Info Lagu
 
-### <i class="bi bi-music-note-beamed me-2"></i> Nuansa Musik
-
-Versi akustik lagu ini terdengar sederhana, tapi punya kekuatan emosional yang halus.  
-Nada gitarnya lembut, ritmenya stabil, dan suara Derek DiScanio terasa jujur tanpa berusaha “terlalu kuat.”  
-Seolah ia bernyanyi di kamar sendiri, bukan di panggung besar—sebuah momen kecil yang tulus dan apa adanya.
-
----
-
-### <i class="bi bi-heart me-2"></i> Penutup
-
-*If I’m Lucky* bukan lagu tentang kebahagiaan yang penuh, tapi tentang menerima ketidakpastian.  
-Tentang seseorang yang masih belajar mencintai tanpa harus memiliki.  
-Dan mungkin, seperti judulnya, **jika beruntung**, perasaan itu akan tetap tinggal sedikit lebih lama—cukup untuk membuat kita merasa hidup.
-
-> _“Aku hanya mencoba menemukan tempatku di dunia ini. Kalau beruntung, kamu mau menemaniku sebentar.”_
-
----
-
-### <i class="bi bi-info-circle me-2"></i> Info Lagu
-
-| **Judul** | *If I’m Lucky* |
-| **Artis** | State Champs |
-| **Album** | *The Acoustic Things* (2014) |
-| **Genre** | Pop Punk / Acoustic |
-| **Label** | Pure Noise Records |
-| **Penulis Lagu** | Derek DiScanio, Tyler Szalkowski |
-| **Tema Utama** | Pencarian diri, cinta muda, dan harapan sederhana |
-| **Durasi** | 2 menit 44 detik |
+| Judul | *If I’m Lucky* |
+|-------|----------------|
+| Artis | State Champs |
+| Album | *The Acoustic Things* (2014) |
+| Genre | Pop Punk / Acoustic |
+| Label | Pure Noise Records |
+| Penulis Lagu | Derek DiScanio, Tyler Szalkowski |
+| Durasi | 2 menit 44 detik |

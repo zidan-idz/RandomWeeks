@@ -4,8 +4,8 @@ title: "Frieren: Tentang Waktu dan Kehidupan"
 date: "2025-11-09"
 excerpt: "Sebuah refleksi dari anime Frieren yang menelusuri makna waktu, kehidupan, dan hubungan antarmanusia melalui perjalanan sang penyihir abadi."
 image: "/assets/images/posts/frieren.webp"
-categories: [Anime, Review]
-tags: [Frieren, anime, fantasy, refleksi, storytelling]
+categories: [Artikel, Anime, Review]
+tags: [Frieren, Anime, Fantasy, Refleksi, Storytelling]
 ---
 
 **Frieren: Beyond Journey’s End** bukan sekadar kisah fantasi tentang penyihir dan pahlawan.  

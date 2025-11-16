@@ -4,7 +4,7 @@ title: "Wimcycle: Dari Kejayaan ke Kesunyian"
 date: "2025-11-10"
 excerpt: "Menceritakan perjalanan Wimcycle, dari awal berdirinya di Surabaya, masa kejayaan sebagai Superbrand, hingga tantangan persaingan dan krisis keuangan di tahun 2025."
 image: "/assets/images/posts/wimcycle.webp"
-categories: [Industri, Sejarah, Bisnis]
+categories: [Artikel, Industri, Sejarah, Bisnis]
 tags: [Wimcycle, Sepeda, Industri, MadeInIndonesia]
 ---
 
