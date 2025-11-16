@@ -8,7 +8,7 @@ categories: [Music]
 tags: [State Champs, Pop Punk, Lirik, Terjemahan]
 ---
 
-### Lirik & Terjemahan
+#### Lirik & Terjemahan
 
 > **Hello sunshine, what's your name today?**  
 > Halo mentari, siapa namamu hari ini?  
@@ -78,7 +78,7 @@ tags: [State Champs, Pop Punk, Lirik, Terjemahan]
 > **Hello sunshine**  
 > Halo mentari  
 
-### Info Lagu
+#### Info Lagu
 
 | Judul | *If I’m Lucky* |
 |-------|----------------|

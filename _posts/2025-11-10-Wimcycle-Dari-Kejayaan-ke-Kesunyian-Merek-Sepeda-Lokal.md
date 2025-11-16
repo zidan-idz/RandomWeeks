@@ -13,7 +13,7 @@ Setiap kali kita mengenang merek sepeda lokal Indonesia yang pernah berjaya, **W
 
 ---
 
-### <i class="bi bi-flag"></i> Awal Perjalanan
+#### <i class="bi bi-flag"></i> Awal Perjalanan
 
 Wimcycle didirikan oleh Bapak **Hendra Widjaja** di Surabaya.
 
@@ -24,7 +24,7 @@ Motivasi berdirinya Wimcycle muncul dari kebutuhan lokal akan sepeda yang berkua
 
 ---
 
-### <i class="bi bi-trophy"></i> Perjalanan Menuju Puncak dan Pengakuan Internasional
+#### <i class="bi bi-trophy"></i> Perjalanan Menuju Puncak dan Pengakuan Internasional
 
 Seiring waktu, Wimcycle tumbuh menjadi pemain besar di industri sepeda Indonesia, bahkan menjadi salah satu yang terbesar.
 
@@ -53,7 +53,7 @@ Puncak kejayaan Wimcycle ditandai dengan berbagai pengakuan bergengsi:
 
 ---
 
-### <i class="bi bi-graph-down"></i> Kini (Tahun 2025) Mengapa Wimcycle Tidak Lagi Masif?
+#### <i class="bi bi-graph-down"></i> Kini (Tahun 2025) Mengapa Wimcycle Tidak Lagi Masif?
 
 Meskipun Wimcycle masih eksis dan produknya tetap dijual di pasaran, sinyal "keheningan" relatif ini disebabkan oleh sejumlah faktor dan tantangan besar yang dihadapi pada akhir dekade 2010-an:
 

@@ -8,7 +8,7 @@ categories: [Pribadi, Profil, Inspirasi]
 tags: [MuhammadRaidZaidani, WebDeveloper, Python, Mahasiswa, Indonesia]
 ---
 
-### Biodata Singkat
+#### Biodata Singkat
 
 **Nama Lengkap:** Muhammad Raid Zaidani  
 **Nama Panggilan:** Zidan  
@@ -24,7 +24,7 @@ Saya seorang mahasiswa yang menekuni **pengembangan web** dan pemrograman. Saya 
 
 ---
 
-### Keahlian & Fokus
+#### Keahlian & Fokus
 
 **Bidang Utama:** Junior Web Developer, Script Enthusiast  
 **Fokus:** Pythonic & Clean Code  
@@ -39,7 +39,7 @@ Saya suka menulis kode yang bersih, efisien, dan mudah dibaca, serta selalu menc
 
 ---
 
-### Proyek & Kontribusi
+#### Proyek & Kontribusi
 
 Beberapa proyek yang pernah saya kerjakan:  
 1. **Theme-Me** - Script Ubah Tampilan Termux Otomatis  
@@ -55,7 +55,7 @@ Setiap proyek menjadi sarana belajar dan memperluas kemampuan teknis saya.
 
 ---
 
-### Minat & Nilai Hidup
+#### Minat & Nilai Hidup
 
 **Hobi:** Membaca, menulis, mendengarkan musik, menonton anime & dorama, serta coding  
 **Nilai yang Dipegang:** Low Profile — fokus pada proses dan pengembangan diri daripada pencapaian semata  
@@ -64,7 +64,7 @@ Setiap proyek menjadi sarana belajar dan memperluas kemampuan teknis saya.
 
 ---
 
-### Motto & Filosofi Hidup
+#### Motto & Filosofi Hidup
 
 > "Terus melangkah dengan percaya diri."
 
@@ -72,7 +72,7 @@ Saya percaya bahwa setiap langkah kecil yang konsisten akan membawa kemajuan. Fo
 
 ---
 
-### Funfact
+#### Funfact
 
 Saya memiliki dua identitas digital:  
 - **Zidan IDz** → Digunakan sebagai identitas utama, profil profesional, dan nama developer saya.  

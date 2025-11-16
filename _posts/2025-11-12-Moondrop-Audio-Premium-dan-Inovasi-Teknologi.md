@@ -29,7 +29,7 @@ Moondrop dikenal unggul dalam empat aspek utama:
 
 Produk terbaru mereka, **Moondrop Space Travel** dan **Moondrop Golden Ages**, menunjukkan inovasi berkelanjutan Moondrop dalam menghadirkan pengalaman audio yang mendalam.
 
-##### Moondrop Space Travel: ANC dan Latensi Rendah
+#### Moondrop Space Travel: ANC dan Latensi Rendah
 
 **Moondrop Space Travel** (TWS) hadir dengan harga sangat kompetitif ($25) tetapi membawa fitur premium:  
 - **ANC (Active Noise Cancellation)** hingga -44dB  
@@ -38,7 +38,7 @@ Produk terbaru mereka, **Moondrop Space Travel** dan **Moondrop Golden Ages**, m
 
 Space Travel membuktikan bahwa perangkat audio terjangkau bisa tetap menghadirkan pengalaman mendengarkan yang memuaskan.
 
-##### Moondrop Golden Ages: Hybrid Driver yang Revolusioner
+#### Moondrop Golden Ages: Hybrid Driver yang Revolusioner
 
 **Moondrop Golden Ages** (TWS) menargetkan segmen premium dengan **hybrid driver**: kombinasi *driver dinamis* dan *planar driver* kecil.  
 - Hasilnya: frekuensi tinggi lebih detail, bass tetap kuat dan terstruktur  

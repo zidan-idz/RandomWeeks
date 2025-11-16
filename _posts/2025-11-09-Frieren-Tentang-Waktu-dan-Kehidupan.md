@@ -17,17 +17,17 @@ Kepergian teman-temannya membuka ruang kosong yang perlahan diisi oleh penyesala
 Anime ini menampilkan **perjalanan Frieren menyusuri dunia lama**, bukan untuk menaklukkan monster, tapi untuk **memahami kenangan, emosi, dan arti kebersamaan**.  
 Setiap pertemuan baru menjadi pelajaran kecil tentang hidup: bahwa nilai dari sebuah hubungan bukan diukur dari lamanya waktu, tapi dari kedalaman perasaan yang tercipta di dalamnya.  
 
-### <i class="bi bi-book-half me-2"></i> Cerita dan Pengembangan Karakter
+#### <i class="bi bi-book-half me-2"></i> Cerita dan Pengembangan Karakter
 Salah satu kekuatan terbesar *Frieren* terletak pada **pengembangan karakter yang halus dan manusiawi**.  
 Transformasi Frieren dari sosok dingin dan datar menjadi pribadi yang perlahan memahami empati terasa sangat natural.  
 Begitu pula karakter pendukungnya, setiap tokoh memiliki peran dalam membentuk pandangan Frieren terhadap kehidupan, tanpa terasa dipaksakan.  
 
-### <i class="bi bi-music-note-beamed me-2"></i> Musik dan Atmosfer
+#### <i class="bi bi-music-note-beamed me-2"></i> Musik dan Atmosfer
 Musik dalam *Frieren* menjadi jiwa dari suasana yang dibangun.  
 Soundtrack-nya lembut, penuh keheningan yang bermakna, dan sering kali menyelimuti adegan dengan rasa hangat atau duka yang mendalam.  
 Setiap nada seolah mengajak penonton ikut merenung tentang waktu yang telah berlalu dan kenangan yang tertinggal.  
 
-### <i class="bi bi-image-alt me-2"></i> Visual dan Penyutradaraan
+#### <i class="bi bi-image-alt me-2"></i> Visual dan Penyutradaraan
 Secara visual, *Frieren* memukau dengan **gaya gambar yang lembut dan pencahayaan yang menenangkan**.  
 Lanskap dunia fantasi yang luas divisualisasikan seperti lukisan yang hidup, indah, tapi sarat rasa sepi.  
 Ritme penyutradaraannya yang tenang mendukung tema utamanya: bahwa kehidupan bukan perlombaan, melainkan perjalanan untuk memahami diri sendiri dan orang lain.  
@@ -42,7 +42,7 @@ Justru dalam momen singkat bersama orang lain, kita menemukan makna hidup yang s
 ---
 
 
-### <i class="bi bi-info-circle me-2"></i> Info Anime
+#### <i class="bi bi-info-circle me-2"></i> Info Anime
 
 | **Judul Jepang** | *Sōsō no Furīren* (葬送のフリーレン) |
 | **Judul Inggris** | *Frieren: Beyond Journey’s End* |
