@@ -8,7 +8,7 @@
 
 ---
 
-🌐 [**Kunjungi Website**](https://randomweeks.zidan-idz.github.io)
+🌐 [**Kunjungi Website**](https://randomweeks.netlify.app)
 
 </div>
 
