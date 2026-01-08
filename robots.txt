@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://randomweeks.netlify.app/sitemap.xml

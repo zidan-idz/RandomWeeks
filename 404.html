@@ -1,35 +1,73 @@
-<style>
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+---
+layout: default
+title: 404 - Tersesat?
+permalink: /404.html
+---
 
-  .container {
-    text-align: center;
-  }
+<div class="container d-flex flex-column justify-content-center align-items-center text-center p-4"
+  style="min-height: 70vh;">
 
-  h1 {
-    font-size: 6rem;
-    margin: 0;
-    font-weight: 700;
-    color: #ff6b6b;
-  }
+  <!-- Glitch Effect Title -->
+  <h1 class="display-1 fw-bold text-white mb-2" style="letter-spacing: -2px;">404</h1>
+  <h2 class="h4 text-muted mb-4">Ups, halaman ini hilang ditelan bumi.</h2>
 
-  p {
-    font-size: 1.2rem;
-    margin: 8px 0;
-  }
-</style>
+  <!-- Random Fact Card -->
+  <div class="card border-0 bg-dark-subtle text-light mb-5 shadow-sm" style="max-width: 600px; width: 100%;">
+    <div class="card-body p-4">
+      <h6 class="card-subtitle mb-3 text-secondary text-uppercase fw-bold"
+        style="font-size: 0.75rem; letter-spacing: 1px;">
+        <i class="bi bi-lightbulb-fill me-1 text-warning"></i> Random Fact #<span id="factNumber">00</span>
+      </h6>
+      <p class="card-text fs-5 fst-italic" id="randomFact">
+        "Memuat fakta tidak berguna..."
+      </p>
+    </div>
+  </div>
 
-<div class="container">
-  <h1>404</h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="d-flex gap-3">
+    <button onclick="generateFact()" class="btn btn-outline-secondary rounded-pill px-4">
+      <i class="bi bi-arrow-clockwise me-1"></i> Fakta Lain
+    </button>
+    <a href="/" class="btn btn-light rounded-pill px-4">
+      <i class="bi bi-house-fill me-1"></i> Home
+    </a>
+  </div>
+
 </div>
+
+<script>
+  const facts = [
+    "Kura-kura bisa bernapas melalui pantat mereka. (Namanya respirasi kloaka).",
+    "Madu tidak akan pernah basi. Anda bisa memakan madu berumur 3000 tahun no problem.",
+    "Bintang laut tidak punya otak. Sama seperti teman 'itu' yang Anda kenal.",
+    "Secara teknis, pisang adalah buah beri, tapi stroberi bukan.",
+    "Jantung udang terletak di kepala mereka.",
+    "Manusia berbagi 50% DNA mereka dengan pisang.",
+    "Rata-rata orang menghabiskan 6 bulan hidupnya menunggu lampu merah berubah hijau.",
+    "Anda tidak bisa menjilat sikut Anda sendiri. (Jangan dicoba, nanti kelihatan aneh).",
+    "Kecoak bisa hidup berminggu-minggu tanpa kepala, sampai akhirnya mati kelaparan.",
+    "Otter laut berpegangan tangan saat tidur supaya tidak hanyut terpisah.",
+    "Cleopatra hidup lebih dekat dengan masa pendaratan di Bulan daripada masa pembangunan Piramida Giza.",
+    "Jika Anda berteriak selama 8 tahun, 7 bulan, dan 6 hari, Anda menghasilkan energi suara yang cukup untuk memanaskan satu cangkir kopi.",
+    "Di Jupiter, hujan turun dalam bentuk berlian."
+  ];
+
+  function generateFact() {
+    const factElement = document.getElementById('randomFact');
+    const numberElement = document.getElementById('factNumber');
+
+    // Random index
+    const randomIndex = Math.floor(Math.random() * facts.length);
+
+    // Animate text change
+    factElement.style.opacity = 0;
+    setTimeout(() => {
+      factElement.innerText = '"' + facts[randomIndex] + '"';
+      numberElement.innerText = Math.floor(Math.random() * 99) + 1; // Fake ID number
+      factElement.style.opacity = 1;
+    }, 200);
+  }
+
+  // Generate on load
+  document.addEventListener('DOMContentLoaded', generateFact);
+</script>

@@ -1,87 +1,59 @@
 ---
 layout: post
-title: "Profil Penulis"
+title: "Kenalin, Zidan."
 date: "2025-11-03"
-excerpt: "Profil Muhammad Raid Zaidani: mahasiswa Sistem Informasi dari Lombok yang menekuni Web Development, Python, dan automasi, serta berbagi filosofi hidup dan minat pribadinya."
+excerpt: "Sekilas tentang gue: mahasiswa IT, penikmat Python, dan orang yang percaya kalau hal-hal kecil itu penting."
 image: "/assets/images/main/face.webp"
-categories: [Pribadi, Profil, Inspirasi]
-tags: [MuhammadRaidZaidani, WebDeveloper, Python, Mahasiswa, Indonesia]
+categories: [Pribadi, Profil]
+tags: [MuhammadRaidZaidani, WebDeveloper, Python, Mahasiswa]
 ---
 
-#### Biodata Singkat
+#### Halo, saya Zidan.
 
-**Nama Lengkap:** Muhammad Raid Zaidani  
-**Nama Panggilan:** Zidan  
-**Asal:** Lombok, Indonesia  
-**Agama:** Islam  
-**Saat Ini:** Mahasiswa Semester 7, Jurusan Sistem Informasi  
+Nama lengkap Muhammad Raid Zaidani, tapi panggil aja **Zidan**.
 
-**Kontak:**  
-- Email: zidansample@email.com  
-- GitHub: [github.com/zidan-idz](https://github.com/zidan-idz)  
+Saya aslinya dari **Lombok**, dan sekarang sedang menjalani semester-semester akhir sebagai mahasiswa Sistem Informasi. Jika Anda kebetulan nyasar ke blog ini, kemungkinan besar Anda menemukan satu dari dua hal: tulisan teknis soal saya belajar coding, atau tulisan acak soal apa yang saya pikirkan.
 
-Saya seorang mahasiswa yang menekuni **pengembangan web** dan pemrograman. Saya tertarik dengan **Python** dan selalu berusaha belajar serta mengembangkan kemampuan teknis untuk bisa berkontribusi di bidang **Web Development**, **Automasi**, dan **Proyek Open Source**.
+Secara garis besar, saya suka banget sama dunia **Web Development** dan **Python**. Ada kepuasan tersendiri saat melihat kode yang saya tulis berjalan mulus (walau seringnya sih error dulu, haha). Saya senang membuat alat-alat kecil yang mengotomatisasi pekerjaan, atau sekadar eksperimen sama teknologi baru kayak Docker atau framework JS.
 
 ---
 
-#### Keahlian & Fokus
+#### Apa yang saya kerjakan?
 
-**Bidang Utama:** Junior Web Developer, Script Enthusiast  
-**Fokus:** Pythonic & Clean Code  
+Fokus saya sekarang lebih ke arah **Clean Code** dan membuat script yang efisien. Saya nyaman bermain di Backend (Django, Flask) tapi juga bisa mengurus Frontend (HTML, CSS, JS, sedikit React).
 
-**Teknologi yang Dikuasai:**  
-- **Frontend:** HTML, CSS, JavaScript, React  
-- **Backend:** Python, Django, Flask  
-- **Database:** MySQL, SQLite  
-- **Tools & Others:** Git, VS Code, Docker  
-
-Saya suka menulis kode yang bersih, efisien, dan mudah dibaca, serta selalu mencoba menerapkan praktik terbaik dalam pengembangan perangkat lunak.
+Beberapa mainan saya:
+1.  **Theme-Me**: Script buat ganti tema Termux otomatis, karena bosenan.
+2.  **RandomWeeks**: Blog ini, rumah digital saya.
+3.  **Proyek Masa Depan**: Ada banyak ide menumpuk di notes, seperti aplikasi parkir atau komunitas musik, pelan-pelan mau saya realisasikan.
 
 ---
 
-#### Proyek & Kontribusi
+#### Di Luar Layar
 
-Beberapa proyek yang pernah saya kerjakan:  
-1. **Theme-Me** - Script Ubah Tampilan Termux Otomatis  
-2. **TES-SDM** - Web Permainan Tanya Jawab  
-3. **RandomWeeks** - Web Blog Pribadi (Bukan Web Portofolio)  
+Kalau lagi tidak ngoding, saya biasanya:
 
-Beberapa proyek yang saya rencanakan:  
-1. **Chordiz** - Web Komunitas Music  
-2. **Parkirzz** - Aplikasi Pengelolaan Parkir  
-3. **YuzuPy** - Tools Python Serbaguna  
+*   🎧 **Dengerin Musik**: Playlist saya campur aduk.
+*   📖 **Baca Buku**: Terutama non-fiksi atau novel thriller.
+*   🎮 **Main Game**: Sekadar buat lepas penat.
 
-Setiap proyek menjadi sarana belajar dan memperluas kemampuan teknis saya.
+Saya orangnya lumayan *low profile*. Saya percaya kalau hidup itu tidak melulu soal pencapaian besar yang harus diteriakkan ke dunia. Kadang, **bertumbuh dalam diam** dan **menikmati proses** itu jauh lebih berharga.
 
----
+> *"Slow progress is still progress."*
 
-#### Minat & Nilai Hidup
-
-**Hobi:** Membaca, menulis, mendengarkan musik, menonton anime & dorama, serta coding  
-**Nilai yang Dipegang:** Low Profile — fokus pada proses dan pengembangan diri daripada pencapaian semata  
-**Hal yang Disukai:** Kedamaian, ketenangan, dan waktu untuk diri sendiri  
-**Tujuan:** Mengembangkan skill web development dan automasi, serta membangun proyek bermanfaat untuk komunitas
-
----
-
-#### Motto & Filosofi Hidup
-
-> "Terus melangkah dengan percaya diri."
-
-Saya percaya bahwa setiap langkah kecil yang konsisten akan membawa kemajuan. Fokus pada kemampuan diri sendiri, belajar dari pengalaman, dan berjalan dengan percaya diri adalah kunci untuk berkembang, baik dalam belajar, coding, maupun membangun proyek pribadi.
+Itu mantra saya. Tidak perlu lari, yang penting jalan terus.
 
 ---
 
 #### Funfact
 
-Saya memiliki dua identitas digital:  
-- **Zidan IDz** → Digunakan sebagai identitas utama, profil profesional, dan nama developer saya.  
-- **ZeyShyy** → Digunakan sebagai identitas sekunder, biasanya untuk hal-hal yang berhubungan dengan anime, dorama, dan minat pribadi lainnya.
+Di dunia maya, saya punya dua mode:
+1.  **Mode Serius**: Sharing soal coding, tutorial, atau opini teknologi.
+2.  **Mode Santai**: Shitposting, ngeluh soal bug, atau rekomendasi lagu.
+
+Kalau Anda menemukan salah satunya, ya itu tetap saya.
 
 ---
 
-📫 **Terhubung dengan saya:**  
-- [Facebook](https://facebook.com/muhammadraidzaidani)  
-- [Instagram](https://instagram.com/zidan_idz)  
-- [GitHub](https://github.com/zidan-idz)  
-- [Email](mailto:zeyshyy@gmail.com)
+Let's connect!
+Saya aktif (kadang-kadang) di [Instagram](https://instagram.com/zidan_idz) atau [GitHub](https://github.com/zidan-idz). Sapa aja kalau mau.

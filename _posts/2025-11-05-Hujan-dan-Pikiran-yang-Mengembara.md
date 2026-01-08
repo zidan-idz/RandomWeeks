@@ -1,26 +1,28 @@
 ---
-
 layout: post
-title: "Hujan dan Pikiran yang Mengembara"
+title: "Hujan, Kopi, dan Pikiran Random."
 date: "2025-11-05"
-excerpt: "Sebuah catatan tentang hujan, kenangan, dan percikan-percikan pikiran yang muncul ketika dunia melambat"
+excerpt: "Kadang hujan cuma air yang jatuh, kadang dia jadi alasan buat ngelamun sejam lebih."
 image: "/assets/images/posts/rain.webp"
 categories: [Refleksi, Harian]
-tags: [Hujan, Perasaan, Kenangan, Malam]
-
+tags: [Hujan, Malam, Chill]
 ---
 
-Hujan selalu datang dengan caranya sendiri, tanpa permisi dan tanpa pengumuman. Ada sesuatu di dalamnya yang terasa akrab, seolah membawa serpihan waktu yang pernah saya lalui dan lupa untuk saya kenang.
+Sore ini hujan deres banget.
 
-Sore tadi saya duduk di ambang jendela, menatap jalan yang basah perlahan. Tetes-tetes air menimpa atap dengan ritme yang hampir seperti lagu lama, lagu yang saya kenal tapi hampir hilang dari ingatan. Di sela rintik itu, pikiran saya mengembara ke tempat-tempat yang aneh. Wajah-wajah yang pernah singgah, pesan-pesan yang tidak pernah terkirim, kata-kata yang tenggelam dalam diam. Semua itu muncul begitu saja, seakan hujan memanggilnya keluar dari sudut-sudut tersembunyi dalam hati saya.
+Tahu tidak, ada momen di mana kita cuma diam melihat jendela, mendengarkan suara air menabrak genteng, terus tiba-tiba pikiran melayang kemana-mana? Itu yang barusan saya alami.
 
-Saya menyadari bahwa hujan membuat hal-hal sederhana menjadi begitu berat dan begitu hangat pada saat yang sama. Bau tanah yang basah, suara air yang jatuh, angin yang membawa dingin lembut ke kulit saya, semuanya membangkitkan kenangan yang samar namun kuat. Saya teringat pada sore-sore yang telah lalu, ketika saya menatap langit mendung sambil menunggu sesuatu yang tidak pernah datang, atau ketika saya duduk sendiri dan membiarkan pikiran saya melayang tanpa arah.
+Aneh ya, hujan itu sebenarnya cuma siklus air biasa. Uap naik, jadi awan, keberatan, jatuh lagi. Fisika sederhana. Tapi entah kenapa efeknya ke mood manusia bisa sekuat itu. Ada yang jadi sedih, ada yang jadi tenang, ada yang jadi lapar (mie rebus pakai telur, anyone?).
 
-Di tengah semua itu, saya hanya duduk diam dan mendengarkan. Mendengarkan hujan berbicara, mendengarkan dunia bergerak perlahan. Saya tidak mencoba memahami semuanya, karena saya tahu tidak semua hal perlu dimengerti. Kadang keindahan terletak pada kemampuan untuk merasakan, pada keberanian untuk membiarkan hati menyimpan perasaan yang sulit dijelaskan.
+Buat saya, hujan itu tombol **pause**.
 
-Hujan membuat saya menyadari bahwa ada ruang bagi kesendirian yang tenang, bagi kenangan yang lembut dan bagi rasa yang tidak perlu dijabarkan. Ada kedamaian dalam berhenti sejenak dan membiarkan diri sendiri hanyut dalam suara rintik yang terus jatuh. Saya merasa hidup, meskipun dalam diam, dan itu cukup untuk saat ini.
+Seharian sibuk scroll sosmed, memikirkan codingan error, atau mengejar deadline... tapi begitu hujan turun, rasanya dunia memaksa kita buat pelan-pelan. Suaranya menutupi berisiknya motor di jalan. Udaranya jadi dingin enak.
 
-Beberapa hal tidak perlu dimengerti. Cukup dirasakan, cukup diingat dalam hati, dan cukup dibawa sebagai bagian dari perjalanan yang terus berjalan.
+Tadi saya cuma duduk, menyeduh kopi (yang sekarang sudah dingin), dan berpikir: *"Sebenarnya saya lagi mengejar apa sih?"*
 
+Kita sering banget sibuk lari, sampai lupa kalau kita juga butuh istirahat. Sibuk mengejar target, sampai lupa menikmati prosesnya.
 
-*“Beberapa hal tidak perlu dimengerti. Cukup dirasakan.”*
+Tidak ketemu jawabannya sih. Tapi tidak apa-apa. Kadang kita tidak butuh jawaban. Kadang kita cuma butuh jeda sebentar, napas panjang, dan menikmati momen pas dunia lagi tidak menuntut kita buat lari.
+
+Hujannya sudah reda sekarang. Kopi saya habis. Balik lagi ke realita.
+*Cheers.*
