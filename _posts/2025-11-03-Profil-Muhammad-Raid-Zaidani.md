@@ -2,58 +2,52 @@
 layout: post
 title: "Kenalin, Zidan."
 date: "2025-11-03"
-excerpt: "Sekilas tentang gue: mahasiswa IT, penikmat Python, dan orang yang percaya kalau hal-hal kecil itu penting."
+excerpt: "Catatan singkat tentang diri saya, ditulis tanpa niat mengesankan siapa pun."
 image: "/assets/images/main/face.webp"
 categories: [Pribadi, Profil]
-tags: [MuhammadRaidZaidani, WebDeveloper, Python, Mahasiswa]
+tags: [MuhammadRaidZaidani, Mahasiswa]
 ---
 
 #### Halo, saya Zidan.
 
-Nama lengkap Muhammad Raid Zaidani, tapi panggil aja **Zidan**.
+Nama lengkap saya **Muhammad Raid Zaidani**, biasa dipanggil **Zidan**.
 
-Saya aslinya dari **Lombok**, dan sekarang sedang menjalani semester-semester akhir sebagai mahasiswa Sistem Informasi. Jika Anda kebetulan nyasar ke blog ini, kemungkinan besar Anda menemukan satu dari dua hal: tulisan teknis soal saya belajar coding, atau tulisan acak soal apa yang saya pikirkan.
+Saya berasal dari **Lombok** dan saat ini berada di fase akhir perkuliahan. Saya tidak terlalu suka menulis profil diri, tapi rasanya aneh juga punya blog tanpa pengantar sama sekali. Jadi tulisan ini ada, seperlunya.
 
-Secara garis besar, saya suka banget sama dunia **Web Development** dan **Python**. Ada kepuasan tersendiri saat melihat kode yang saya tulis berjalan mulus (walau seringnya sih error dulu, haha). Saya senang membuat alat-alat kecil yang mengotomatisasi pekerjaan, atau sekadar eksperimen sama teknologi baru kayak Docker atau framework JS.
-
----
-
-#### Apa yang saya kerjakan?
-
-Fokus saya sekarang lebih ke arah **Clean Code** dan membuat script yang efisien. Saya nyaman bermain di Backend (Django, Flask) tapi juga bisa mengurus Frontend (HTML, CSS, JS, sedikit React).
-
-Beberapa mainan saya:
-1.  **Theme-Me**: Script buat ganti tema Termux otomatis, karena bosenan.
-2.  **RandomWeeks**: Blog ini, rumah digital saya.
-3.  **Proyek Masa Depan**: Ada banyak ide menumpuk di notes, seperti aplikasi parkir atau komunitas musik, pelan-pelan mau saya realisasikan.
+Blog ini saya jadikan ruang pribadi. Tempat menyimpan pikiran yang terlalu panjang untuk disimpan di kepala, tapi terlalu sepele untuk dibahas serius. Tidak semua tulisan di sini penting, dan tidak semuanya rapi. Beberapa hanya catatan, beberapa mungkin keluhan, beberapa lagi sekadar berhenti sebentar.
 
 ---
 
-#### Di Luar Layar
+#### Kenapa menulis di sini
 
-Kalau lagi tidak ngoding, saya biasanya:
+Saya menulis bukan untuk membangun citra, bukan untuk terlihat sibuk, dan bukan untuk meyakinkan orang lain bahwa saya sedang “berjalan di jalur yang benar”. Menulis di sini lebih ke usaha kecil untuk jujur pada diri sendiri.
 
-*   🎧 **Dengerin Musik**: Playlist saya campur aduk.
-*   📖 **Baca Buku**: Terutama non-fiksi atau novel thriller.
-*   🎮 **Main Game**: Sekadar buat lepas penat.
+Kadang saya menulis karena sedang penuh. Kadang karena ingin mengingat sesuatu di kemudian hari. Kadang juga karena tidak tahu harus melakukan apa, jadi menulis saja.
 
-Saya orangnya lumayan *low profile*. Saya percaya kalau hidup itu tidak melulu soal pencapaian besar yang harus diteriakkan ke dunia. Kadang, **bertumbuh dalam diam** dan **menikmati proses** itu jauh lebih berharga.
-
-> *"Slow progress is still progress."*
-
-Itu mantra saya. Tidak perlu lari, yang penting jalan terus.
+Tidak semua tulisan punya tujuan. Tidak semua harus selesai.
 
 ---
 
-#### Funfact
+#### Soal isi dan arah
 
-Di dunia maya, saya punya dua mode:
-1.  **Mode Serius**: Sharing soal coding, tutorial, atau opini teknologi.
-2.  **Mode Santai**: Shitposting, ngeluh soal bug, atau rekomendasi lagu.
+Blog ini tidak punya tema besar dan tidak menjanjikan konsistensi. Ada masa-masa kosong, ada masa-masa terlalu banyak. Saya tidak menganggap itu masalah.
 
-Kalau Anda menemukan salah satunya, ya itu tetap saya.
+Sebagian tulisan mungkin terasa mentah, berulang, atau menggantung. Saya sengaja membiarkannya begitu. Hidup jarang rapi, dan saya tidak tertarik berpura-pura rapi di sini.
+
+Kalau Anda mencari jawaban, kemungkinan besar tidak akan menemukannya. Yang ada hanya proses berpikir yang belum tentu sampai ke mana-mana.
 
 ---
 
-Let's connect!
-Saya aktif (kadang-kadang) di [Instagram](https://instagram.com/zidan_idz) atau [GitHub](https://github.com/zidan-idz). Sapa aja kalau mau.
+#### Penutup kecil
+
+Saya tidak berharap semua orang cocok dengan isi blog ini. Kalau ada yang merasa relate, itu kebetulan baik. Kalau tidak, juga tidak apa-apa.
+
+Blog ini ada bukan untuk dibenarkan, tapi untuk ada.
+
+---
+
+[Facebook](https://facebook.com/muhammadraizaidani)
+[Instagram](https://instagram.com/zidan_idz)
+[GitHub](https://github.com/zidan-idz)
+
+Silakan membaca, lewat sebentar, atau menutup halaman. Tidak ada kewajiban apa pun.
