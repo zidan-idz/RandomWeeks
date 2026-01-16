@@ -156,7 +156,11 @@ body {
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.9)
+  );
 }
 
 /* ============================================================
@@ -308,7 +312,6 @@ body {
   }
 }
 
-
 .site-footer .highlight {
   background-color: #ffc107;
   /* yellow highlight */
@@ -319,11 +322,18 @@ body {
   font-weight: 600;
 }
 
-
-
-
 /* Efek hover lembut */
 .hover-shadow-sm:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: box-shadow 0.2s ease-in-out;
+}
+
+/* ==========================
+   BACK TO TOP BUTTON
+========================== */
+#backToTop {
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  z-index: 9999;
 }

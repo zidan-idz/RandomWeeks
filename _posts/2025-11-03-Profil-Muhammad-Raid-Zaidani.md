@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Kenalin, Zidan."
-date: "2025-11-03"
+date: 2025-11-03
 excerpt: "Catatan singkat tentang diri saya, ditulis tanpa niat mengesankan siapa pun."
-image: "/assets/images/main/face.webp"
+image: /assets/images/main/face.webp
 categories: [Pribadi, Profil]
 tags: [MuhammadRaidZaidani, Mahasiswa]
 ---

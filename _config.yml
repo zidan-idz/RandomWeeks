@@ -15,7 +15,7 @@ url: "https://randomweeks.netlify.app" # Domain utama
 
 # --- Sosial Media ---
 facebook_username: "muhammadraidzaidani"
-github_username:  "zidan-idz"
+github_username: "zidan-idz"
 
 # --- Pengaturan Build ---
 theme: "minima"
@@ -24,8 +24,11 @@ plugins:
   - "jekyll-seo-tag"
   - "jekyll-sitemap"
 
+# --- Verifikasi ---
+google_site_verification: "Vqjmpdv9-fM1mi2_EjDiTk4d3ZFzxpYrrAvVPVHW1yU"
+
 # Layout default untuk semua halaman
-layout: 'default'
+layout: "default"
 
 # --- Nilai Default (Front Matter) ---
 defaults:
@@ -33,7 +36,7 @@ defaults:
       path: "" # Berlaku untuk semua file
       type: posts
     values:
-      author: admin
+      author: Zidan IDz
 
 # --- Pengecualian (Exclude) ---
 # Folder/file ini tidak akan diproses oleh Jekyll
@@ -45,4 +48,3 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
-

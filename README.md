@@ -2,9 +2,9 @@
 
 # RandomWeeks
 
-### *Random, Honest, And Human.*
+### _Random, Honest, And Human._
 
-*"Tidak selalu penting, tapi selalu nyata."*
+_"Tidak selalu penting, tapi selalu nyata."_
 
 ---
 
@@ -15,6 +15,7 @@
 <br>
 
 ### Tentang Website Ini
+
 **RandomWeeks** adalah web blog pribadi, tempat saya menuangkan pikiran, ide, dan hal-hal lain yang muncul begitu saja. Kadang berupa tulisan pendek, kadang lebih panjang, kadang hanya catatan ringan atau berbagi informasi yang dirasa menarik saat itu. Tidak ada pola khusus yang harus diikuti, dan tidak ada batasan topik yang mengikat.
 
 Apa pun yang ada di sini ditulis berdasarkan apa yang ingin dikeluarkan dari kepala, bukan karena tuntutan, target, atau rencana tertentu. Blog ini tidak diarahkan untuk menjadi media teknis, portofolio, atau referensi resmi apa pun.
@@ -22,5 +23,6 @@ Apa pun yang ada di sini ditulis berdasarkan apa yang ingin dikeluarkan dari kep
 Tidak ada ekspektasi yang ingin dicapai, baik dari penulis maupun pembaca. RandomWeeks berdiri sebagai ruang bebas sekadar arsip personal untuk menyimpan pikiran, ide, dan potongan informasi yang lewat, lalu dituliskan.
 
 ---
-**Author:** Muhammad Raid Zaidani (Zidan IDz)  
+
+**Author:** Zidan IDz
 **License:** MIT License
