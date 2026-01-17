@@ -20,7 +20,7 @@ layout: default
       {% if page.categories %}
       &nbsp;&bull;&nbsp;
       {% for cat in page.categories %}
-      <a href="/categories/{{ cat | slugify }}" class="text-decoration-none text-light">{{ cat }}</a>{% unless
+      <a href="/categories/#{{ cat | slugify }}" class="text-decoration-none text-light border-bottom border-light pb-1 hover-primary">{{ cat }}</a>{% unless
       forloop.last %}, {% endunless %}
       {% endfor %}
       {% endif %}
@@ -34,5 +34,36 @@ layout: default
 <article class="post-content py-5">
   <div class="container-xl col-lg-8 text-light rounded-4 shadow-sm px-0 px-lg-3 py-1">
     {{ content }}
+
+    <!-- Share Section -->
+    <div class="share-section mt-5 border-top pt-4">
+      <h5 class="fw-bold mb-3"><i class="bi bi-share"></i> Bagikan:</h5>
+      <div class="d-flex gap-2 flex-wrap">
+        <!-- Twitter / X -->
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}"
+           target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3">
+          <i class="bi bi-instagram"></i> Instagram
+        </a>
+        
+        <!-- WhatsApp -->
+        <a href="https://wa.me/?text={{ page.title | url_encode }}%20{{ site.url }}{{ page.url }}"
+           target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3">
+          <i class="bi bi-whatsapp"></i> WhatsApp
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+           target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3">
+          <i class="bi bi-facebook"></i> Facebook
+        </a>
+
+        <!-- Copy Link -->
+        <button onclick="navigator.clipboard.writeText(window.location.href); alert('Link disalin!');"
+           class="btn btn-outline-light btn-sm rounded-pill px-3">
+          <i class="bi bi-link-45deg"></i> Copy Link
+        </button>
+      </div>
+    </div>
+
   </div>
 </article>

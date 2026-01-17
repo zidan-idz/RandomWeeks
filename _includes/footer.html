@@ -1,18 +1,79 @@
 {% unless page.url contains '/search' %}
-<footer class="site-footer mt-auto border-top text-light">
-  <div class="container-xl text-center py-4">
-    <p class="mb-1 small">
-      &copy; {{ site.time | date: "%Y" }} <span class="fw-semibold">{{ site.title | default: "RandomWeeks" }}</span>.
-      All rights reserved.
-    </p>
-    <p class="mb-1 small">
-      Made with <span class="text-danger bi bi-heart-fill"></span> using <span class="highlight">Jekyll</span> by 
-      <span class="fw-semibold">Zidan IDz</span>
-    </p>
-    <p class="mb-0 small">
-      <a href="/about" class="text-decoration-none text-info mx-2">About</a> |
-      <a href="/archive" class="text-decoration-none text-info mx-2">Archives</a>
-    </p>
+<footer class="site-footer mt-auto py-5 border-top border-secondary">
+  <div class="container-xl">
+    <div class="row g-4 justify-content-between">
+      
+      <!-- Kolom 1: Brand & Tagline -->
+      <div class="col-lg-4 col-md-6 mb-3 mb-md-0">
+        <h5 class="fw-bold text-white mb-3">RandomWeeks.</h5>
+        <p class="text-secondary small mb-3" style="max-width: 300px;">
+          "Tidak selalu penting, tapi selalu nyata." <br>
+          Sebuah ruang arsip digital untuk pikiran random, hobi, dan cerita dari manusia biasa.
+        </p>
+        <div class="d-flex align-items-center gap-2">
+          <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary border-opacity-25 rounded-pill px-3 py-2">
+            <i class="bi bi-code-slash me-1"></i> Built with Jekyll
+          </span>
+        </div>
+      </div>
+
+      <!-- Kolom 2: Navigasi Cepat -->
+      <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+        <h6 class="fw-bold text-white text-uppercase mb-3 small letter-spacing-1">Explore</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="/" class="text-decoration-none text-secondary hover-text-white transition-all">Home</a></li>
+          <li class="mb-2"><a href="/archive" class="text-decoration-none text-secondary hover-text-white transition-all">Archives</a></li>
+          <li class="mb-2"><a href="/categories" class="text-decoration-none text-secondary hover-text-white transition-all">Categories</a></li>
+          <li class="mb-2"><a href="/about" class="text-decoration-none text-secondary hover-text-white transition-all">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom 3: Connect / Social -->
+      <div class="col-lg-3 col-md-12">
+        <h6 class="fw-bold text-white text-uppercase mb-3 small letter-spacing-1">Connect</h6>
+        <p class="text-secondary small mb-3">
+          Temukan saya di:
+        </p>
+        <div class="d-flex gap-3">
+          <a href="https://github.com/zidan-idz" target="_blank" class="text-secondary hover-text-white fs-5 transition-all" title="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://instagram.com/zidan_idz" target="_blank" class="text-secondary hover-text-white fs-5 transition-all" title="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://facebook.com/muhammadraidzaidani" target="_blank" class="text-secondary hover-text-white fs-5 transition-all" title="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://telegram.me/Zidan_IDz" target="_blank" class="text-secondary hover-text-white fs-5 transition-all" title="Telegram">
+            <i class="bi bi-telegram"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary opacity-25 my-4">
+
+    <!-- Copyright Bawah -->
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-0 text-secondary small opacity-75">
+          &copy; 2025-{{ site.time | date: "%Y" }} <strong>RandomWeeks</strong>. All rights reserved.
+        </p>
+      </div>
+      <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+        <p class="mb-0 text-secondary small opacity-75">
+          Lombok, Indonesia
+        </p>
+      </div>
+    </div>
   </div>
+
+  <!-- Style Tambahan Khusus Footer -->
+  <style>
+    .hover-text-white:hover { color: #fff !important; }
+    .transition-all { transition: all 0.2s ease; }
+    .letter-spacing-1 { letter-spacing: 1px; }
+  </style>
 </footer>
 {% endunless %}

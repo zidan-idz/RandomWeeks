@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bagaimana Saya Mengenal eill"
-date: 2026-01-17
+date: 2025-12-16
 categories: [Musik, Opini]
 tags: [eill, Tokyo Revengers, J-Pop, The Tunnel to Summer]
 image: /assets/images/posts/eill.webp

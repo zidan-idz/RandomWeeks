@@ -1,73 +1,95 @@
 ---
-layout: default
-title: 404 - Tersesat?
+layout: minimal
+title: 404 - Halaman Tidak Ditemukan
 permalink: /404.html
 ---
 
-<div class="container d-flex flex-column justify-content-center align-items-center text-center p-4"
-  style="min-height: 70vh;">
+<div class="position-relative w-100 vh-100 d-flex flex-column align-items-center justify-content-center overflow-hidden">
 
-  <!-- Glitch Effect Title -->
-  <h1 class="display-1 fw-bold text-white mb-2" style="letter-spacing: -2px;">404</h1>
-  <h2 class="h4 text-muted mb-4">Ups, halaman ini hilang ditelan bumi.</h2>
-
-  <!-- Random Fact Card -->
-  <div class="card border-0 bg-dark-subtle text-light mb-5 shadow-sm" style="max-width: 600px; width: 100%;">
-    <div class="card-body p-4">
-      <h6 class="card-subtitle mb-3 text-secondary text-uppercase fw-bold"
-        style="font-size: 0.75rem; letter-spacing: 1px;">
-        <i class="bi bi-lightbulb-fill me-1 text-warning"></i> Random Fact #<span id="factNumber">00</span>
-      </h6>
-      <p class="card-text fs-5 fst-italic" id="randomFact">
-        "Memuat fakta tidak berguna..."
-      </p>
-    </div>
+  <!-- Background Animated Shapes (Container) -->
+  <div id="geometric-shapes" class="position-absolute top-0 start-0 w-100 h-100" style="z-index: 0; opacity: 0.4; pointer-events: none;">
+    <!-- Shapes will be generated here by JS -->
   </div>
 
-  <div class="d-flex gap-3">
-    <button onclick="generateFact()" class="btn btn-outline-secondary rounded-pill px-4">
-      <i class="bi bi-arrow-clockwise me-1"></i> Fakta Lain
-    </button>
-    <a href="/" class="btn btn-light rounded-pill px-4">
-      <i class="bi bi-house-fill me-1"></i> Home
+  <!-- Content (Z-Index Higher) -->
+  <div class="text-center position-relative" style="z-index: 2;">
+    <h1 class="display-1 fw-bold text-white mb-0" style="font-size: 10rem; text-shadow: 0 0 30px rgba(255,255,255,0.1);">404</h1>
+    <h2 class="h3 fw-light text-secondary mb-4 letter-spacing-2">Ruang Hampa</h2>
+    
+    <p class="text-muted mb-5 mx-auto" style="max-width: 450px;">
+      Kamu berada di koordinat yang tidak terdefinisi. <br>
+      Biarkan gravitasi membawamu kembali.
+    </p>
+
+    <a href="/" class="btn btn-outline-light rounded-pill px-5 py-2 hover-scale">
+      <i class="bi bi-rocket-takeoff me-2"></i> Kembali ke Bumi
     </a>
   </div>
 
 </div>
 
 <script>
-  const facts = [
-    "Kura-kura bisa bernapas melalui pantat mereka. (Namanya respirasi kloaka).",
-    "Madu tidak akan pernah basi. Anda bisa memakan madu berumur 3000 tahun no problem.",
-    "Bintang laut tidak punya otak. Sama seperti teman 'itu' yang Anda kenal.",
-    "Secara teknis, pisang adalah buah beri, tapi stroberi bukan.",
-    "Jantung udang terletak di kepala mereka.",
-    "Manusia berbagi 50% DNA mereka dengan pisang.",
-    "Rata-rata orang menghabiskan 6 bulan hidupnya menunggu lampu merah berubah hijau.",
-    "Anda tidak bisa menjilat sikut Anda sendiri. (Jangan dicoba, nanti kelihatan aneh).",
-    "Kecoak bisa hidup berminggu-minggu tanpa kepala, sampai akhirnya mati kelaparan.",
-    "Otter laut berpegangan tangan saat tidur supaya tidak hanyut terpisah.",
-    "Cleopatra hidup lebih dekat dengan masa pendaratan di Bulan daripada masa pembangunan Piramida Giza.",
-    "Jika Anda berteriak selama 8 tahun, 7 bulan, dan 6 hari, Anda menghasilkan energi suara yang cukup untuk memanaskan satu cangkir kopi.",
-    "Di Jupiter, hujan turun dalam bentuk berlian."
-  ];
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('geometric-shapes');
+    const colors = ['#0d6efd', '#6610f2', '#6f42c1', '#d63384', '#198754', '#0dcaf0'];
+    const shapes = ['circle', 'square', 'triangle'];
+    
+    // Create 20 random shapes
+    for (let i = 0; i < 20; i++) {
+      const el = document.createElement('div');
+      const size = Math.random() * 80 + 20; // 20px - 100px
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      const shape = shapes[Math.floor(Math.random() * shapes.length)];
+      
+      // Base Styles
+      el.style.position = 'absolute';
+      el.style.left = Math.random() * 100 + '%';
+      el.style.top = Math.random() * 100 + '%';
+      el.style.width = size + 'px';
+      el.style.height = size + 'px';
+      el.style.opacity = Math.random() * 0.5 + 0.1;
+      
+      // Shape Styles
+      if (shape === 'circle') {
+        el.style.borderRadius = '50%';
+        el.style.backgroundColor = color;
+      } else if (shape === 'square') {
+        el.style.borderRadius = '10%'; // Soft square
+        el.style.backgroundColor = color;
+      } else {
+        // Triangle via border trick
+        el.style.width = 0;
+        el.style.height = 0;
+        el.style.backgroundColor = 'transparent';
+        el.style.borderLeft = (size/2) + 'px solid transparent';
+        el.style.borderRight = (size/2) + 'px solid transparent';
+        el.style.borderBottom = size + 'px solid ' + color;
+      }
 
-  function generateFact() {
-    const factElement = document.getElementById('randomFact');
-    const numberElement = document.getElementById('factNumber');
+      container.appendChild(el);
 
-    // Random index
-    const randomIndex = Math.floor(Math.random() * facts.length);
-
-    // Animate text change
-    factElement.style.opacity = 0;
-    setTimeout(() => {
-      factElement.innerText = '"' + facts[randomIndex] + '"';
-      numberElement.innerText = Math.floor(Math.random() * 99) + 1; // Fake ID number
-      factElement.style.opacity = 1;
-    }, 200);
-  }
-
-  // Generate on load
-  document.addEventListener('DOMContentLoaded', generateFact);
+      // Animate Float
+      anime({
+        targets: el,
+        translateX: () => anime.random(-200, 200),
+        translateY: () => anime.random(-200, 200),
+        scale: [
+          {value: .1, easing: 'easeOutSine', duration: 500},
+          {value: 1, easing: 'easeInOutQuad', duration: 1200}
+        ],
+        rotate: () => anime.random(0, 360),
+        opacity: [
+            {value: 0.5, duration: 1000},
+            {value: 0.1, duration: 1000}
+        ],
+        delay: anime.random(0, 500),
+        direction: 'alternate',
+        loop: true,
+        duration: () => anime.random(3000, 8000), // Slow random movement
+        easing: 'easeInOutSine'
+      });
+    }
+    
+    // Animation Removed: User requested '404' text to stay static (no scale up)
+  });
 </script>

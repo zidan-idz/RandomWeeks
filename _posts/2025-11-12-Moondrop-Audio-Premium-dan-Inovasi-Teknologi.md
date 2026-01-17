@@ -8,17 +8,17 @@ categories: [Artikel, Audio, Teknologi]
 tags: [Moondrop, IEM, SpaceTravel, GoldenAges, Audio]
 ---
 
-Kalau Anda mengikuti dunia audio portable atau Chi-Fi (Chinese Hi-Fi), pasti tidak asing sama **Moondrop**.
+Kalau kamu mengikuti dunia audio portable atau Chi-Fi (Chinese Hi-Fi), pasti tidak asing sama **Moondrop**.
 
 Brand audio dari China ini unik banget. Di saat brand lain sibuk jualan spesifikasi teknis yang bikin pusing (driver beryllium, tribrid, bla bla), Moondrop datang dengan pendekatan berbeda: **Suara yang enak, Desain Anime, dan Marketing yang 'Wibu' abis.**
 
-Tapi, kalau cuma jual gambar kartun, mereka tidak bakal bertahan lama. Kuncinya ada di *sound quality*.
+Tapi, kalau cuma jual gambar kartun, mereka tidak bakal bertahan lama. Kuncinya ada di _sound quality_.
 
 ---
 
 #### VDSF: Obsesi Suara Netral
 
-Moondrop punya standar tuning sendiri yang mereka sebut **VDSF (Virtual Diffuse Sound Field)**. 
+Moondrop punya standar tuning sendiri yang mereka sebut **VDSF (Virtual Diffuse Sound Field)**.
 
 Singkatnya, mereka ingin suara yang keluar dari IEM itu senatural mungkin, kayak kita lagi mendengarkan speaker di ruangan yang akustiknya bagus. Hasilnya? Suara yang bersih, vokal yang maju, dan separasi instrumen yang rapi. Buat saya pribadi, tuningan ala Moondrop ini cocok banget buat mendengarkan lagu-lagu pop, akustik, atau lagu anime yang vokalnya "cewek banget".
 
@@ -28,7 +28,7 @@ Singkatnya, mereka ingin suara yang keluar dari IEM itu senatural mungkin, kayak
 
 Belakangan ini mereka makin gila inovasinya.
 
-**Moondrop Space Travel** contohnya. Harganya murah (sekitar 300 ribuan), desainnya futuristik, transparan, dan udah ada ANC. Emang sih build quality-nya plastik banget, tapi suaranya? **Jauh di atas harganya**. Bass-nya dapet, vokalnya jernih. Buat daily driver, ini *no brainer*.
+**Moondrop Space Travel** contohnya. Harganya murah (sekitar 300 ribuan), desainnya futuristik, transparan, dan udah ada ANC. Emang sih build quality-nya plastik banget, tapi suaranya? **Jauh di atas harganya**. Bass-nya dapet, vokalnya jernih. Buat daily driver, ini _no brainer_.
 
 Terus ada **Golden Ages**. Ini TWS yang pake driver **Planar**. Teknologi yang biasanya ada di headphone mahal, dibawa ke TWS.
 
@@ -46,5 +46,4 @@ Di saat brand HP lain buang lubang jack audio, Moondrop malah bikin HP yang **pu
 
 Moondrop itu unik. Mereka serius bikin produk bagus, tapi tidak kaku dalam branding. Mereka mengerti kalau audio itu soal "rasa".
 
-Buat saya, Moondrop bukan sekadar brand, tapi contoh gimana hobi dan idealisme bisa jadi produk yang keren. Kalau Anda belum pernah mencoba, cobain deh mulai dari yang murah kayak Chu II atau Space Travel. Hati-hati ketagihan.
-
+Buat saya, Moondrop bukan sekadar brand, tapi contoh gimana hobi dan idealisme bisa jadi produk yang keren. Kalau kamu belum pernah mencoba, cobain deh mulai dari yang murah kayak Chu II atau Space Travel. Hati-hati ketagihan.

@@ -1,0 +1,52 @@
+---
+layout: default
+title: Arsip Kategori
+permalink: /categories/
+---
+
+<div class="container my-5">
+    <div class="mx-1 mx-lg-0">
+
+        <!-- JUDUL DAN DESKRIPSI -->
+        <div class="text-center mb-4">
+            <p class="text-muted mx-auto" style="max-width: 600px;">
+                Eksplorasi tulisan di <strong>RandomWeeks</strong> berdasarkan topik.
+                Temukan sudut pandang yang sesuai dengan minatmu.
+            </p>
+            <hr class="divider mx-auto mb-3" style="border-top: 2px solid; width: 80px;">
+        </div>
+
+        <!-- PILIHAN KATEGORI -->
+        <div class="text-center mb-5">
+            {% for category in site.categories %}
+            <a href="#{{ category[0] | slugify }}" class="btn btn-outline-primary btn-sm me-2 mb-2">
+                {{ category[0] }} <span class="badge text-bg-secondary ms-1">{{ category[1].size }}</span>
+            </a>
+            {% endfor %}
+        </div>
+
+        <!-- DAFTAR POST BERDASARKAN KATEGORI -->
+        {% for category in site.categories %}
+        <section id="{{ category[0] | slugify }}" class="mb-5">
+            <h3 class="fw-semibold text-primary border-bottom pb-2 mb-4">
+                {{ category[0] }}
+            </h3>
+
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+                {% for post in category[1] %}
+                <div class="col">
+                    <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+                        <div class="p-3 border rounded h-100 hover-shadow-sm">
+                            <h6 class="fw-semibold text-light mb-1">{{ post.title }}</h6>
+                            <small class="text-muted d-block mb-2">{{ post.date | date: "%d %B %Y" }}</small>
+                            <p class="text-secondary mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+
+    </div>
+</div>

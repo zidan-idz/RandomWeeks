@@ -2,260 +2,236 @@
 ---
 
 /* ============================================================
+   VARIABLES
+============================================================ */
+$dark-bg: #212529;
+$darker-bg: #0f141a;
+$text-color: #fff;
+$text-muted: #cfd3da;
+$border-color: #2a2f36;
+
+/* ============================================================
    GLOBAL STYLES
 ============================================================ */
 body {
-  background-color: #212529 !important;
-  color: #fff;
+  background-color: $dark-bg !important;
+  color: $text-color;
 }
 
-/* ============================================================
-   HERO SECTION
-============================================================ */
-.hero-section {
-  background-color: #212529;
+.bg-smoke {
+  background-color: rgba(255, 255, 255, 0.037);
 }
 
-/* Divider */
 .divider {
   width: 140px;
   height: 2px;
-  background-color: #cfd3da;
+  background-color: $text-muted;
   margin-left: 0;
-}
-
-/* ============================================================
-   POST CARD
-============================================================ */
-.post-card {
-  background-color: #d9d9d9;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.post-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
-}
-
-/* Thumbnail */
-.post-thumb {
-  width: 100%;
-  height: 180px;
-  background-size: cover;
-  background-position: center;
-}
-
-.post-thumb.placeholder {
-  background-color: #c9c9c9;
-}
-
-/* Info text */
-.post-info {
-  background-color: #f0f0f0;
-  color: #000;
-}
-
-/* Posts section */
-.posts-section {
-  background-color: #0f141a;
+  
+  @media (max-width: 767px) {
+    margin: 0 auto;
+  }
 }
 
 /* ============================================================
    HEADER SECTION
 ============================================================ */
 .site-header {
-  background-color: #212529;
-  border-bottom: 1px solid #2a2f36;
+  background-color: $dark-bg;
+  border-bottom: 1px solid $border-color;
+  
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #1b1f26;
+  }
 }
 
-/* Navbar brand (logo) */
 .navbar-brand {
   color: #ffffff !important;
   font-weight: 600;
   letter-spacing: 0.3px;
 }
 
-/* Navbar links */
 .nav-link {
-  color: #cfd3da !important;
+  color: $text-muted !important;
   transition: color 0.2s ease-in-out;
+  
+  &:hover {
+    color: #ffffff !important;
+  }
 }
 
-.nav-link:hover {
-  color: #ffffff !important;
-}
-
-/* Search box */
 .search-box {
   background-color: #1b222b;
   color: #fff;
   border: 1px solid #333a44;
   padding: 3px 8px;
-}
-
-.search-box::placeholder {
-  color: #999;
-}
-
-/* Border line below header */
-.site-header::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #1b1f26;
+  
+  &::placeholder {
+    color: #999;
+  }
 }
 
 /* ============================================================
-   FOOTER SECTION
+   HERO & POST SECTIONS
 ============================================================ */
-.site-footer {
-  background-color: #ffffff3c;
-  border-top: 1px solid #2a2f36;
-  color: #cfd3da;
+.hero-section {
+  background-color: $dark-bg;
+  
+  h1 {
+    @media (max-width: 767px) {
+      font-size: 1.75rem;
+    }
+  }
 }
 
-.site-footer small {
-  font-size: 0.85rem;
-  letter-spacing: 0.3px;
+.posts-section {
+  background-color: $dark-bg; 
 }
 
-.site-footer .text-muted {
-  color: #9aa0a8 !important;
+/* Post Card */
+.post-card {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+  }
 }
 
-.site-footer .text-light {
-  color: #ffffff !important;
+.post-thumb {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  
+  &.placeholder {
+    background-color: #c9c9c9;
+  }
+  
+  @media (max-width: 767px) {
+    height: 150px;
+  }
+}
+
+.post-info {
+  background-color: #f0f0f0;
+  color: #000;
 }
 
 /* ============================================================
-   POST HEADER
+   POST DETAIL PAGE
 ============================================================ */
 .post-header {
   height: 60vh;
   overflow: hidden;
   position: relative;
   background-color: #000;
+  
+  .post-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(65%);
+    transition: transform 0.5s ease;
+  }
+
+  &:hover .post-hero-img {
+    transform: scale(1.05);
+  }
+  
+  /* Overlay */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    );
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    height: 40vh;
+    h1 { font-size: 1.6rem; }
+  }
 }
 
-.post-hero-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(65%);
-  transition: transform 0.5s ease;
-}
-
-.post-header:hover .post-hero-img {
-  transform: scale(1.05);
-}
-
-/* Overlay */
-.overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.9)
-  );
-}
-
-/* ============================================================
-   POST CONTENT
-============================================================ */
 .post-content {
-  background-color: #212529;
+  background-color: $dark-bg;
   color: #d4d6da;
   line-height: 1.8;
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-.post-content p {
-  margin-bottom: 1rem;
-}
-
-.post-content strong {
-  color: #fff;
-}
-
-.post-content em {
-  color: #cfd2d7;
-}
-
-.post-content a {
-  color: #5ea0ff;
-  text-decoration: none;
-}
-
-.post-content a:hover {
-  text-decoration: underline;
-}
-
-/* ============================================================
-   QUOTES, HR, ETC
-============================================================ */
-.post-content blockquote {
-  border-left: 4px solid #3b4655;
-  padding-left: 1rem;
-  // color: #0053e2;
-  font-style: italic;
-  margin: 1.5rem 0;
-}
-
-.post-content hr {
-  border-color: #333a44;
-  margin: 2rem 0;
-}
-
-/* ============================================================
-   RESPONSIVE
-============================================================ */
-@media (max-width: 768px) {
-  .post-header {
-    height: 40vh;
+  
+  p { margin-bottom: 1rem; }
+  strong { color: #fff; }
+  em { color: #cfd2d7; }
+  
+  a {
+    color: #5ea0ff;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
   }
-
-  .post-header h1 {
-    font-size: 1.6rem;
+  
+  blockquote {
+    border-left: 4px solid #3b4655;
+    padding-left: 1rem;
+    font-style: italic;
+    margin: 1.5rem 0;
   }
-
-  .post-content {
+  
+  hr {
+    border-color: #333a44;
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 768px) {
     padding: 1.5rem;
   }
 }
 
-@media (max-width: 767px) {
-  .divider {
-    margin: 0 auto;
+/* ============================================================
+   FOOTER SECTION
+============================================================ */
+.site-footer {
+  // Use a subtle transparent black or just transparent if styling via Bootstrap classes
+  background-color: transparent; 
+  border-top: 1px solid #2a2f36;
+  color: $text-muted; // Fixed: Black text on dark body is unreadable
+  
+  small {
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
   }
 
-  .hero-section h1 {
-    font-size: 1.75rem;
+  // Helpers for footer links
+  a {
+    transition: color 0.2s ease;
+    
+    &:hover, 
+    &.hover-text-white:hover {
+      color: #fff !important;
+    }
   }
-
-  .post-thumb {
-    height: 150px;
+  
+  .badge {
+    font-weight: normal;
   }
 }
 
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-.bg-smoke {
-  background-color: rgba(255, 255, 255, 0.037);
-}
-
-.posts-section {
-  background-color: #212529;
-}
-
-/* ==========================
-   POPUP MENU (FIXED VERSION)
-========================== */
+/* ============================================================
+   UTILITIES & COMPONENTS
+============================================================ */
+/* Popup Menu */
 .popup-menu {
   position: fixed;
   inset: 0;
@@ -264,18 +240,16 @@ body {
   background-color: rgba(18, 20, 23, 0.98);
   backdrop-filter: blur(6px);
   display: none;
-  /* default: sembunyi */
   justify-content: center;
   align-items: center;
   z-index: 1050;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
-
-.popup-menu.active {
-  display: flex !important;
-  /* munculkan hanya jika aktif */
-  opacity: 1;
+  
+  &.active {
+    display: flex !important;
+    opacity: 1;
+  }
 }
 
 .popup-content {
@@ -284,56 +258,40 @@ body {
 }
 
 @keyframes fadeSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .popup-menu .btn-close {
   filter: invert(1);
   opacity: 0.8;
   transition: opacity 0.2s ease;
+  
+  &:hover { opacity: 1; }
 }
 
-.popup-menu .btn-close:hover {
-  opacity: 1;
-}
-
-/* Sembunyikan popup di layar besar */
 @media (min-width: 992px) {
-  #popupMenu {
-    display: none !important;
-  }
+  #popupMenu { display: none !important; }
 }
 
-.site-footer .highlight {
-  background-color: #ffc107;
-  /* yellow highlight */
-  color: #212529;
-  /* dark text for contrast */
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-weight: 600;
-}
-
-/* Efek hover lembut */
-.hover-shadow-sm:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: box-shadow 0.2s ease-in-out;
-}
-
-/* ==========================
-   BACK TO TOP BUTTON
-========================== */
+/* Back to Top */
 #backToTop {
   bottom: 40px;
   right: 40px;
   display: none;
   z-index: 9999;
+}
+
+/* Misc */
+.highlight {
+  background-color: #ffc107;
+  color: #212529;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.hover-shadow-sm:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease-in-out;
 }
