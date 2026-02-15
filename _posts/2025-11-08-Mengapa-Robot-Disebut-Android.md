@@ -9,22 +9,22 @@ tags: [Android, Robot, Fiksi, Budaya, Teknologi]
 ---
 
 Setiap kali menonton film atau anime bertema masa depan, pasti ada robot yang disebut **android**.  
-Tapi kenapa selalu *Android*? Kenapa bukan *Windows*, *iOS*, atau *Linux*?
+Tapi kenapa selalu _Android_? Kenapa bukan _Windows_, _iOS_, atau _Linux_?
 
-Jawabannya sederhana. Kata *android* bukan merek dagang, melainkan istilah lama dari bahasa Yunani.  
-Kata *andr-* berarti **manusia laki-laki**, sedangkan *-oid* berarti **menyerupai**.  
-Jadi *android* artinya *makhluk buatan yang menyerupai manusia*.  
+Jawabannya sederhana. Kata _android_ bukan merek dagang, melainkan istilah lama dari bahasa Yunani.  
+Kata _andr-_ berarti **manusia laki-laki**, sedangkan _-oid_ berarti **menyerupai**.  
+Jadi _android_ artinya _makhluk buatan yang menyerupai manusia_.  
 Istilah ini sudah muncul di literatur fiksi ilmiah sejak abad ke-19, jauh sebelum ada sistem operasi dengan nama yang sama.
 
 Namun, di zaman modern, sistem operasi Android keburu populer di mana-mana: smartphone, TV, mobil, bahkan robot sungguhan.  
-Akibatnya, sekarang kata *Android* terasa lebih *futuristik* dan *realistis*.  
+Akibatnya, sekarang kata _Android_ terasa lebih _futuristik_ dan _realistis_.  
 Jadi ketika penulis masa kini menyebut robot sebagai “android”, istilah itu terasa masuk akal dan akrab bagi pembaca.
 
 Bayangkan kalau disebut “robot berbasis Windows”.  
 Kedengarannya malah seperti mesin yang minta restart di tengah pertempuran final.
-  
-Jadi, kenapa *Android* selalu jadi pilihan?  
+
+Jadi, kenapa _Android_ selalu jadi pilihan?  
 Karena sejak dulu hingga sekarang, kata itu punya dua makna kuat:  
 **manusia buatan** dan **teknologi nyata yang hidup di sekitar kita.**
 
-> _“Mungkin dunia kita sekarang bukan lagi sekadar fiksi ilmiah, melainkan versi <b>update</b> dari cerita yang dulu hanya ada di imajinasi."
+> \_“Mungkin dunia kita sekarang bukan lagi sekadar fiksi ilmiah, melainkan versi <b>update</b> dari cerita yang dulu hanya ada di imajinasi."

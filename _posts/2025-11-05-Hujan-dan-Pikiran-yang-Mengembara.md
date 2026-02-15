@@ -18,11 +18,11 @@ Buat saya, hujan itu tombol **pause**.
 
 Seharian sibuk scroll sosmed, memikirkan codingan error, atau mengejar deadline... tapi begitu hujan turun, rasanya dunia memaksa kita buat pelan-pelan. Suaranya menutupi berisiknya motor di jalan. Udaranya jadi dingin enak.
 
-Tadi saya cuma duduk, menyeduh kopi (yang sekarang sudah dingin), dan berpikir: *"Sebenarnya saya lagi mengejar apa sih?"*
+Tadi saya cuma duduk, menyeduh kopi (yang sekarang sudah dingin), dan berpikir, _"Sebenarnya saya lagi mengejar apa sih?"_
 
 Kita sering banget sibuk lari, sampai lupa kalau kita juga butuh istirahat. Sibuk mengejar target, sampai lupa menikmati prosesnya.
 
 Tidak ketemu jawabannya sih. Tapi tidak apa-apa. Kadang kita tidak butuh jawaban. Kadang kita cuma butuh jeda sebentar, napas panjang, dan menikmati momen pas dunia lagi tidak menuntut kita buat lari.
 
 Hujannya sudah reda sekarang. Kopi saya habis. Balik lagi ke realita.
-*Cheers.*
+_Cheers._

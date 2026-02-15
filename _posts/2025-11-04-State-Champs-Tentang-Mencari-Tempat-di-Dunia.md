@@ -39,7 +39,7 @@ tags: [State Champs, Pop Punk, Lirik, Terjemahan]
 > **And if I'm lucky you can stay for a while**  
 > Dan kalau aku beruntung, kamu akan tinggal sedikit lebih lama  
 > **But if you stay or if you go, I'm just hanging on again**  
-> Tapi entah kamu tinggal atau pergi, aku tetap bertahan — lagi
+> Tapi entah kamu tinggal atau pergi, aku tetap bertahan, lagi
 
 > **Hello stranger, we haven't had a past**  
 > Halo orang asing, kita bahkan tak punya masa lalu  
