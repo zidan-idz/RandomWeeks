@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Tentang Bagaimana Waktu Mengubah "Kita" Menjadi "Saya" dan "Dia".'
+title: 'Tentang Bagaimana Waktu Mengubah "Kita" Menjadi "Saya" dan "Dia"'
 date: 2026-02-15
 categories: [Opini, Life]
 tags: [Waktu, Persahabatan, Pendewasaan, Kenangan, Jarak]
