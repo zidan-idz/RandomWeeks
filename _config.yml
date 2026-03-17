@@ -16,6 +16,7 @@ url: "https://randomweeks.netlify.app" # Domain utama
 # --- Sosial Media ---
 facebook_username: "muhammadraidzaidani"
 github_username: "zidan-idz"
+twitter_username: "Zidan_IDz" # Atau ganti username Twitter/X yang benar di sini
 
 # --- Pengaturan Build ---
 theme: "minima"

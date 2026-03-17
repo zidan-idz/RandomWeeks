@@ -52,9 +52,26 @@
 </header>
 
 <script>
+  // Handle mobile menu toggle
+  const menuToggle = document.getElementById('menuToggle');
+  const closeMenu = document.getElementById('closeMenu');
+  const popupMenu = document.getElementById('popupMenu');
+
+  if (menuToggle && closeMenu && popupMenu) {
+    menuToggle.addEventListener('click', () => {
+      popupMenu.style.display = 'block';
+    });
+
+    closeMenu.addEventListener('click', () => {
+      popupMenu.style.display = 'none';
+    });
+  }
+
+  // Handle search forms (desktop and mobile)
   document.querySelectorAll('.search-box').forEach(box => {
     box.addEventListener('keypress', function (e) {
       if (e.key === 'Enter') {
+        e.preventDefault(); // Prevent default form submission via enter key
         const query = this.value.trim();
         if (query) {
           window.location.href = `/search/?q=${encodeURIComponent(query)}`;
