@@ -36,15 +36,23 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
           {% assign latest_posts = site.posts | slice: 0, 2 %}
           {% for post in latest_posts %}
           <div class="col-12">
-            <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none">
+            <a href="{{ post.url | relative_url }}" class="post-card d-flex flex-column text-decoration-none h-100">
               {% if post.image %}
               <div class="post-thumb" style="background-image: url('{{ post.image }}');"></div>
               {% else %}
               <div class="post-thumb placeholder"></div>
               {% endif %}
-              <div class="post-info text-center p-3">
-                <h5 class="fw-bold mb-1 text-dark">{{ post.title }}</h5>
-                <p class="text-dark small mb-0">{{ post.excerpt | strip_html | truncate: 90 }}</p>
+              <div class="post-info d-flex flex-column flex-grow-1 p-4 text-start bg-white">
+                <h5 class="fw-bold mb-2 text-dark">{{ post.title }}</h5>
+                <p class="text-secondary small mb-3 flex-grow-1" style="line-height: 1.6;">
+                  {{ post.excerpt | strip_html | truncate: 90 }}
+                </p>
+                {% assign words = post.content | number_of_words %}
+                {% assign read_time = words | divided_by: 200 | plus: 1 %}
+                <div class="d-flex justify-content-between align-items-center text-dark border-top pt-3 mt-auto" style="font-size: 0.8rem;">
+                  <span><i class="bi bi-calendar3 me-1"></i> {{ post.date | date: "%d %b %Y" }}</span>
+                  <span><i class="bi bi-clock me-1"></i> {{ read_time }} min read</span>
+                </div>
               </div>
             </a>
           </div>
@@ -66,22 +74,28 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
 
     <div class="row g-4">
       <!-- Loop sisa postingan (mulai dari index ke-3) -->
-      {% for post in site.posts %}
-      {% if forloop.index > 2 %}
+      {% for post in site.posts offset:2 %}
       <div class="col-md-6 col-lg-6">
-        <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none h-100">
+        <a href="{{ post.url | relative_url }}" class="post-card d-flex flex-column text-decoration-none h-100">
           {% if post.image %}
           <div class="post-thumb" style="background-image: url('{{ post.image }}');"></div>
           {% else %}
           <div class="post-thumb placeholder"></div>
           {% endif %}
-          <div class="post-info text-center p-3">
-            <h5 class="fw-bold mb-1 text-dark">{{ post.title }}</h5>
-            <p class="text-dark small mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+          <div class="post-info d-flex flex-column flex-grow-1 p-4 text-start bg-white">
+            <h5 class="fw-bold mb-2 text-dark">{{ post.title }}</h5>
+            <p class="text-secondary small mb-3 flex-grow-1" style="line-height: 1.6;">
+              {{ post.excerpt | strip_html | truncate: 100 }}
+            </p>
+            {% assign words = post.content | number_of_words %}
+            {% assign read_time = words | divided_by: 200 | plus: 1 %}
+            <div class="d-flex justify-content-between align-items-center text-dark border-top pt-3 mt-auto" style="font-size: 0.8rem;">
+              <span><i class="bi bi-calendar3 me-1"></i> {{ post.date | date: "%d %b %Y" }}</span>
+              <span><i class="bi bi-clock me-1"></i> {{ read_time }} min read</span>
+            </div>
           </div>
         </a>
       </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>

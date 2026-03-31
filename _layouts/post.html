@@ -24,6 +24,11 @@ layout: default
       forloop.last %}, {% endunless %}
       {% endfor %}
       {% endif %}
+
+      {% assign words = content | number_of_words %}
+      {% assign read_time = words | divided_by: 200 | plus: 1 %}
+      &nbsp;&bull;&nbsp;
+      <i class="bi bi-clock"></i> {{ read_time }} menit baca
     </p>
   </div>
 </header>
@@ -62,6 +67,48 @@ layout: default
            class="btn btn-outline-light btn-sm rounded-pill px-3">
           <i class="bi bi-link-45deg"></i> Copy Link
         </button>
+      </div>
+    </div>
+
+    <!-- Navigasi Postingan -->
+    <div class="d-flex justify-content-between mt-5 border-top pt-4">
+      {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+          <i class="bi bi-arrow-left"></i> Previous Post
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+      
+      {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+          Next Post <i class="bi bi-arrow-right"></i>
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+    </div>
+
+    <!-- Giscus Comments -->
+    <div class="comments-section mt-5 border-top pt-4">
+      <h5 class="fw-bold mb-3"><i class="bi bi-chat-text"></i> Komentar:</h5>
+      <script src="https://giscus.app/client.js"
+              data-repo="zidan-idz/RandomWeeks"
+              data-repo-id="[ISI_DENGAN_REPO_ID]"
+              data-category="Announcements"
+              data-category-id="[ISI_DENGAN_CATEGORY_ID]"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="light"
+              data-lang="id"
+              crossorigin="anonymous"
+              async>
+      </script>
+      <div class="alert alert-info mt-3 small">
+        <i class="bi bi-info-circle"></i> <strong>Catatan:</strong> Script komentar di atas memerlukan ID Repository Anda. Kunjungi <a href="https://giscus.app/id" target="_blank">giscus.app</a> untuk mendapatkan <code>data-repo-id</code> dan <code>data-category-id</code> khusus untuk repository <code>zidan-idz/RandomWeeks</code>, lalu gantikan teks placeholder di atas.
       </div>
     </div>
 
