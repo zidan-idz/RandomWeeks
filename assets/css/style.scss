@@ -329,3 +329,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: box-shadow 0.2s ease-in-out;
 }
+
+.object-fit-cover {
+  object-fit: cover;
+}

@@ -66,3 +66,53 @@ if (searchInput) {
     }, 150);
   }
 }
+
+// =================================================================
+// Fitur Tambahan (Copy Link & Reading Progress)
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Logic Copy Link dengan Toast
+  const copyBtn = document.getElementById("copyLinkBtn");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", () => {
+      const urlToCopy = copyBtn.getAttribute("data-url");
+      
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(urlToCopy).then(() => {
+          showToast();
+        });
+      } else {
+        // Fallback
+        const tempInput = document.createElement("input");
+        tempInput.value = urlToCopy;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        showToast();
+      }
+    });
+  }
+
+  function showToast() {
+    const toastEl = document.getElementById("copyToast");
+    if (toastEl) {
+      const toast = new bootstrap.Toast(toastEl, { delay: 3000 });
+      toast.show();
+    }
+  }
+});
+
+// Logic Reading Progress Bar
+window.addEventListener("scroll", () => {
+  const progressBar = document.getElementById("readingProgressBar");
+  if (progressBar) {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    
+    if (height > 0) {
+      const scrolled = (winScroll / height) * 100;
+      progressBar.style.width = scrolled + "%";
+    }
+  }
+});

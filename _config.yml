@@ -12,6 +12,8 @@ description: >-
   tentang ide, perasaan, dan hal-hal kecil yang membuat hidup terasa nyata."
 baseurl: "" # Subpath situs (kosongkan jika di root)
 url: "https://randomweeks.netlify.app" # Domain utama
+keywords: ["blog", "randomweeks", "opini", "zidan", "teknologi", "kehidupan"]
+image: "/assets/images/main/default-og.webp"
 
 # --- Sosial Media ---
 facebook_username: "muhammadraidzaidani"
@@ -24,6 +26,9 @@ plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
   - "jekyll-sitemap"
+  - "jekyll-paginate-v2"
+  - "jekyll-minifier"
+  - "jekyll-toc"
 
 # --- Verifikasi ---
 google_site_verification: "Vqjmpdv9-fM1mi2_EjDiTk4d3ZFzxpYrrAvVPVHW1yU"
@@ -49,3 +54,21 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+
+# --- Pengaturan Kompresi SASS ---
+sass:
+  style: compressed
+
+# --- Pengaturan Paginasi ---
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num/'
+  title: ':title - Halaman :num'
+  sort_field: 'date'
+  sort_reverse: true
+
+# --- Pengaturan Table of Contents (TOC) ---
+toc:
+  min_level: 2
+  max_level: 3

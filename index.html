@@ -2,10 +2,13 @@
 layout: default
 title: RandomWeeks
 keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog Personal", "Teknologi", "Kehidupan"]
+pagination:
+  enabled: true
 ---
 
+{% if paginator.page == 1 %}
 <!-- ==============================================
-     BAGIAN 1: HERO & POSTINGAN TERBARU
+     BAGIAN 1: HERO & POSTINGAN TERBARU (Hanya di Halaman 1)
 =============================================== -->
 <section class="hero-section py-5 border-bottom mx-1">
   <div class="container-xl">
@@ -24,7 +27,6 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
           yang membuat hidup terasa nyata.
         </p>
         <div class="divider my-4"></div>
-
       </div>
 
       <!-- Kolom Kanan: 2 Postingan Terkini -->
@@ -33,12 +35,12 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
           <i class="bi bi-journal-text"></i> Postingan Terbaru
         </p>
         <div class="row g-3">
-          {% assign latest_posts = site.posts | slice: 0, 2 %}
+          {% assign latest_posts = paginator.posts | slice: 0, 2 %}
           {% for post in latest_posts %}
           <div class="col-12">
             <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none rounded-4 overflow-hidden position-relative shadow-sm border-0 h-100">
               {% if post.image %}
-              <div class="post-thumb position-absolute w-100 h-100" style="background-image: url('{{ post.image }}'); background-size: cover; background-position: center; top: 0; left: 0; z-index: 1;"></div>
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" class="post-thumb object-fit-cover position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1;">
               {% else %}
               <div class="post-thumb placeholder position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1;"></div>
               {% endif %}
@@ -68,6 +70,7 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
     </div>
   </div>
 </section>
+{% endif %}
 
 <!-- ==============================================
      BAGIAN 2: DAFTAR POSTINGAN LAINNYA
@@ -75,16 +78,21 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
 <section class="posts-section py-5 mx-1">
   <div class="container-xl">
     <p class="text-muted small mb-3 text-lg-center">
-      <i class="bi bi-journal-richtext me-2"></i> Postingan Lainnya
+      <i class="bi bi-journal-richtext me-2"></i> Postingan {% if paginator.page > 1 %}Halaman {{ paginator.page }}{% else %}Lainnya{% endif %}
     </p>
 
     <div class="row g-4">
-      <!-- Loop sisa postingan (mulai dari index ke-3) -->
-      {% for post in site.posts offset:2 %}
+      {% if paginator.page == 1 %}
+        {% assign grid_posts = paginator.posts | offset: 2 %}
+      {% else %}
+        {% assign grid_posts = paginator.posts %}
+      {% endif %}
+
+      {% for post in grid_posts %}
       <div class="col-md-6 col-lg-6">
         <a href="{{ post.url | relative_url }}" class="post-card d-block text-decoration-none rounded-4 overflow-hidden position-relative shadow-sm border-0 h-100">
           {% if post.image %}
-          <div class="post-thumb position-absolute w-100 h-100" style="background-image: url('{{ post.image }}'); background-size: cover; background-position: center; top: 0; left: 0; z-index: 1;"></div>
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" class="post-thumb object-fit-cover position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1;">
           {% else %}
           <div class="post-thumb placeholder position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1;"></div>
           {% endif %}
@@ -110,5 +118,39 @@ keywords: ["Muhammad Raid Zaidani", "Zidan IDz", "ZeyShyy", "RandomWeeks", "Blog
       </div>
       {% endfor %}
     </div>
+
+    <!-- Paginasi Navigasi -->
+    {% if paginator.total_pages > 1 %}
+    <div class="d-flex justify-content-center mt-5">
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link bg-dark border-secondary text-light" href="{{ paginator.previous_page_path | relative_url }}">Prev</a>
+            </li>
+          {% else %}
+            <li class="page-item disabled">
+              <span class="page-link bg-dark border-secondary text-secondary">Prev</span>
+            </li>
+          {% endif %}
+          
+          <li class="page-item active">
+            <span class="page-link bg-primary border-primary text-white">{{ paginator.page }} dari {{ paginator.total_pages }}</span>
+          </li>
+          
+          {% if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link bg-dark border-secondary text-light" href="{{ paginator.next_page_path | relative_url }}">Next</a>
+            </li>
+          {% else %}
+            <li class="page-item disabled">
+              <span class="page-link bg-dark border-secondary text-secondary">Next</span>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+    {% endif %}
+
   </div>
 </section>
