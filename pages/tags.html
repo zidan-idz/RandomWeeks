@@ -1,0 +1,92 @@
+---
+layout: default
+title: Eksplorasi Tag
+permalink: /tags/
+---
+
+<div class="container my-5" style="min-height: 60vh;">
+    <div class="mx-1 mx-lg-0">
+
+        <!-- JUDUL DAN DESKRIPSI -->
+        <div class="text-center mb-5">
+            <p class="text-muted mx-auto" style="max-width: 600px; font-size: 1.1rem;">
+                Semua topik spesifik (Tag) yang ada di <strong>RandomWeeks</strong>.
+            </p>
+            <hr class="divider mx-auto mb-4" style="border-top: 2px solid; width: 60px; opacity: 0.2;">
+        </div>
+
+        {% assign sorted_tags = site.tags | sort %}
+
+        <!-- WRAPPER DIREKTORI -->
+        <div id="tagDirectoryWrapper">
+            <!-- KOTAK NAVIGASI ABJAD -->
+            <style>
+                .alphabet-scroll::-webkit-scrollbar { display: none; }
+                .alphabet-scroll { -ms-overflow-style: none; scrollbar-width: none; overflow-x: auto; }
+            </style>
+            <div class="py-3 px-4 rounded-3 border border-secondary-subtle mb-5" style="background-color: rgba(255,255,255,0.015); width: 100%;">
+                <div class="d-flex justify-content-between align-items-center alphabet-scroll gap-2">
+                    {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
+                    {% for letter in alphabet %}
+                      {% assign has_letter = false %}
+                      {% for tag in sorted_tags %}
+                         {% assign first_char = tag[0] | slice: 0, 1 | upcase %}
+                         {% if first_char == letter %}
+                            {% assign has_letter = true %}
+                            {% break %}
+                         {% endif %}
+                      {% endfor %}
+                      
+                      {% if has_letter %}
+                        <a href="#idx-{{ letter }}" data-no-swup class="btn btn-outline-secondary text-light flex-shrink-0 d-flex align-items-center justify-content-center transition-fade rounded-1" style="width: 32px; height: 32px; font-size: 0.85rem; padding: 0;">
+                            {{ letter }}
+                        </a>
+                      {% else %}
+                        <div class="text-muted flex-shrink-0 d-flex align-items-center justify-content-center rounded-1" style="width: 32px; height: 32px; font-size: 0.85rem; opacity: 0.3; background-color: rgba(255,255,255,0.02);">
+                            {{ letter }}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- DAFTAR DICTIONARY / KATEGORI -->
+            <div class="tag-dictionary mb-5">
+                {% assign current_letter = "" %}
+                
+                {% for tag in sorted_tags %}
+                  {% assign tag_name = tag[0] %}
+                  {% assign first_char = tag_name | slice: 0, 1 | upcase %}
+                  
+                  {% if first_char != current_letter %}
+                    {% if current_letter != "" %}
+                        </div> <!-- Tutup div.row sebelumnya -->
+                    </div> <!-- Tutup letter-group sebelumnya -->
+                    {% endif %}
+                    
+                    <div class="letter-group mb-5" id="idx-{{ first_char }}">
+                        <h4 class="fw-bold text-light border-bottom border-secondary-subtle pb-2 mb-3" style="font-size: 1.2rem;">{{ first_char }}</h4>
+                        <div class="row">
+                    {% assign current_letter = first_char %}
+                  {% endif %}
+                  
+                  <!-- Item List Tag -->
+                  <div class="col-md-4 col-sm-6 mb-3">
+                      {% assign tag_slug = tag_name | slugify %}
+                      <a href="{{ '/tag/' | append: tag_slug | append: '/' | relative_url }}" class="text-secondary text-decoration-none hover-primary d-flex align-items-center transition-fade">
+                          <span class="bg-secondary opacity-75" style="width: 5px; height: 5px; border-radius: 50%; margin-right: 12px;"></span>
+                          <span class="text-light">{{ tag_name }}</span> 
+                          <span class="ms-2 text-muted" style="font-size: 0.8rem;">{{ tag[1].size }}</span>
+                      </a>
+                  </div>
+                  
+                {% endfor %}
+                {% if current_letter != "" %}
+                    </div> <!-- Tutup div.row terakhir -->
+                </div> <!-- Tutup letter-group terakhir -->
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>

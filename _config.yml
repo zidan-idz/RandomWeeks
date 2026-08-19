@@ -13,7 +13,7 @@ description: >-
 baseurl: "" # Subpath situs (kosongkan jika di root)
 url: "https://randomweeks.netlify.app" # Domain utama
 keywords: ["blog", "randomweeks", "opini", "zidan", "teknologi", "kehidupan"]
-image: "/assets/images/main/default-og.webp"
+image: "/assets/images/main/favicon.webp"
 
 # --- Sosial Media ---
 facebook_username: "muhammadraidzaidani"
@@ -21,14 +21,25 @@ github_username: "zidan-idz"
 twitter_username: "Zidan_IDz" # Atau ganti username Twitter/X yang benar di sini
 
 # --- Pengaturan Build ---
-theme: "minima"
 plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
   - "jekyll-sitemap"
   - "jekyll-paginate-v2"
   - "jekyll-minifier"
-  - "jekyll-toc"
+
+# --- Pengaturan Autopages (Paginasi per Tag) ---
+autopages:
+  enabled: true
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'Tag: :tag'
+    permalink: '/tag/:tag'
+  categories:
+    enabled: false
+  collections:
+    enabled: false
 
 # --- Verifikasi ---
 google_site_verification: "Vqjmpdv9-fM1mi2_EjDiTk4d3ZFzxpYrrAvVPVHW1yU"
@@ -62,13 +73,10 @@ sass:
 # --- Pengaturan Paginasi ---
 pagination:
   enabled: true
-  per_page: 6
+  per_page: 8
   permalink: '/page/:num/'
   title: ':title - Halaman :num'
   sort_field: 'date'
   sort_reverse: true
 
-# --- Pengaturan Table of Contents (TOC) ---
-toc:
-  min_level: 2
-  max_level: 3
+

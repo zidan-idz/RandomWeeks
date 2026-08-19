@@ -1,26 +1,15 @@
 ---
 layout: post
-title: "Enam Tahun yang Terasa Singkat untuk Saya"
+title: Enam Tahun yang Terasa Singkat untuk Saya
 date: 2026-01-16
-categories: [Anime, Opini]
-tags:
-  [
-    Bunny Girl Senpai,
-    Sakuta Azusagawa,
-    Mai Sakurajima,
-    Analisis Karakter,
-    Romance,
-  ]
+categories: [Kultur Pop, Opini & Refleksi]
+tags: [Analisis Karakter, Bunny Girl Senpai, Mai Sakurajima, Romance, Sakuta Azusagawa]
 image: /assets/images/posts/bunny-girl-senpai.webp
-description: "Sebuah refleksi penyesalan karena terlambat menyadari keindahan kisah Sakuta dan Mai. Enam tahun perjalanan mereka terasa begitu singkat saat perpisahan kini di depan mata."
-keywords:
-  [
-    "Rascal Does Not Dream of Bunny Girl Senpai",
-    "Seishun Buta Yarou",
-    "Sakuta Azusagawa",
-    "Mai Sakurajima",
-    "Analisis Anime Romance",
-  ]
+description: Sebuah refleksi penyesalan karena terlambat menyadari keindahan kisah
+  Sakuta dan Mai. Enam tahun perjalanan mereka terasa begitu singkat saat perpisahan
+  kini di depan mata.
+keywords: [Rascal Does Not Dream of Bunny Girl Senpai, Seishun Buta Yarou, Sakuta
+    Azusagawa, Mai Sakurajima, Analisis Anime Romance]
 ---
 
 Nama **Rascal Does Not Dream of Bunny Girl Senpai** itu sebenarnya adalah penipuan terbesar. Waktu saya pertama kali tahu anime ini di tahun 2020 saya pikir ini cuma tontonan romcom pasaran yang isinya pamer lekuk tubuh wanita dan cerita dangkal. Reaksi saya waktu itu datar sekali dan bahkan saya sempat merasa bosan karena alurnya terasa lambat. Saya menontonnya tanpa ekspektasi dan tidak menangkap apa bagusnya interaksi mereka.

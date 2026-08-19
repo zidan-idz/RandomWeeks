@@ -34,14 +34,8 @@ permalink: /categories/
 
             <div class="row row-cols-1 row-cols-md-2 g-3">
                 {% for post in category[1] %}
-                <div class="col">
-                    <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
-                        <div class="p-3 border rounded h-100 hover-shadow-sm">
-                            <h6 class="fw-semibold text-light mb-1">{{ post.title }}</h6>
-                            <small class="text-muted d-block mb-2">{{ post.date | date: "%d %B %Y" }}</small>
-                            <p class="text-secondary mb-0">{{ post.excerpt | strip_html | truncate: 100 }}</p>
-                        </div>
-                    </a>
+                <div class="col-md-6 col-sm-12">
+                    {% include post_card.html post=post %}
                 </div>
                 {% endfor %}
             </div>

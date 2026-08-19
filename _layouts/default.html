@@ -9,7 +9,7 @@
 
   {% include header.html %}
 
-  <main>
+  <main id="swup" class="transition-fade">
     {{ content }}
   </main>
 
@@ -24,15 +24,53 @@
     </button>
   </div>
 
+  <!-- Command Palette Modal -->
+  <div id="cmdPalette" class="cmd-palette-overlay d-none">
+    <div class="cmd-palette-container">
+      <div class="cmd-palette-header">
+        <i class="bi bi-search cmd-icon"></i>
+        <input type="text" id="cmdInput" placeholder="Cari artikel atau perintah..." autocomplete="off" spellcheck="false">
+        <span class="cmd-esc d-none d-md-inline-block">ESC</span>
+      </div>
+      <div class="cmd-palette-body">
+        <div id="cmdDefault" class="cmd-group">
+          <div class="cmd-group-title">Aksi Cepat</div>
+          <ul class="cmd-list" id="cmdQuickActions">
+            <li class="cmd-item" data-url="/"><i class="bi bi-house me-2"></i> Pergi ke Beranda</li>
+            <li class="cmd-item" data-url="/archive/"><i class="bi bi-folder2-open me-2"></i> Buka Arsip</li>
+            <li class="cmd-item" data-url="/tags/"><i class="bi bi-tags me-2"></i> Jelajahi Tags</li>
+            <li class="cmd-item" data-url="/about/"><i class="bi bi-person me-2"></i> Tentang Penulis</li>
+          </ul>
+        </div>
+        <div id="cmdResultsGroup" class="cmd-group d-none">
+          <div class="cmd-group-title">Artikel</div>
+          <ul class="cmd-list" id="cmdResults">
+            <!-- Results injected here -->
+          </ul>
+        </div>
+      </div>
+      <div class="cmd-palette-footer text-muted d-none d-md-block">
+        <small><kbd>↑</kbd> <kbd>↓</kbd> Navigasi &nbsp;&nbsp; <kbd>Enter</kbd> Pilih</small>
+      </div>
+    </div>
+  </div>
+
   <!-- Script Eksternal & Logic -->
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
-  <script defer src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+  
+  <!-- Swup JS -->
+  <script src="https://unpkg.com/swup@4"></script>
+  <script src="https://unpkg.com/@swup/scripts-plugin@2"></script>
+  
+  <script defer src="{{ '/assets/js/scripts.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   
   <!-- Custom Animations (Anime.js) -->
-  <script defer src="{{ '/assets/js/animations.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/animations.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script defer src="{{ '/assets/js/command-palette.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
 </body>
 

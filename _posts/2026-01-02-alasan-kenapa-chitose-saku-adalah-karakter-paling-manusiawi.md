@@ -1,26 +1,15 @@
 ---
 layout: post
-title: "Alasan Kenapa Chitose Saku Adalah Karakter Paling Manusiawi"
+title: Alasan Kenapa Chitose Saku Adalah Karakter Paling Manusiawi
 date: 2026-01-02
-categories: [Anime, Opini]
-tags:
-  [
-    Chitose is in the Ramune Bottle,
-    Chiramune,
-    Chitose Saku,
-    Analisis Karakter,
-    Slice of Life,
-  ]
+categories: [Kultur Pop, Opini & Refleksi]
+tags: [Analisis Karakter, Chiramune, Chitose Saku, Chitose is in the Ramune Bottle,
+  Slice of Life]
 image: /assets/images/posts/chitose.webp
-description: "Di balik citra sempurnanya, Chitose Saku adalah representasi nyata dari beban sosial dan kompromi orang dewasa. Sebuah analisis karakter yang mendalam."
-keywords:
-  [
-    "Chitose Saku",
-    "Chitose is in the Ramune Bottle",
-    "Jaku-Chara Tomozaki-kun",
-    "Analisis Karakter Light Novel",
-    "Metafora Botol Ramune",
-  ]
+description: Di balik citra sempurnanya, Chitose Saku adalah representasi nyata dari
+  beban sosial dan kompromi orang dewasa. Sebuah analisis karakter yang mendalam.
+keywords: [Chitose Saku, Chitose is in the Ramune Bottle, Jaku-Chara Tomozaki-kun,
+  Analisis Karakter Light Novel, Metafora Botol Ramune]
 ---
 
 Awalnya saya melihat Chitose Saku dengan pandangan yang biasa saja bahkan cenderung meremehkan. Dia muncul sebagai sosok yang memiliki segalanya. Dia tampan dan populer serta bisa melakukan apa saja dengan mudah. Rasanya dia terlalu menyilaukan dan mustahil untuk didekati. Saya sempat berpikir kalau dia hanyalah karakter utama standar yang diciptakan untuk memuaskan fantasi penonton tentang kehidupan sekolah yang sempurna.

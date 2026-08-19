@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Era Ayago dan Realita Honda Sonic 150R"
+title: Era Ayago dan Realita Honda Sonic 150R
 date: 2026-03-23
-categories: [Otomotif, Opini]
-tags: [Honda, Sonic 150R, Ayago, Motor Matic, Opini]
-image: "/assets/images/posts/sonic.png"
-description: "Melihat kembali sejarah tren motor Ayam Jago (Ayago) dan bagaimana dominasi skutik maxi menggeser kepopuleran Honda Sonic 150R dalam persaingan otomotif Indonesia."
+categories: [Opini & Refleksi, Sains & Industri]
+tags: [Ayago, Honda, Motor Matic, Opini, Sonic 150R]
+image: /assets/images/posts/sonic.png
+description: Melihat kembali sejarah tren motor Ayam Jago (Ayago) dan bagaimana dominasi
+  skutik maxi menggeser kepopuleran Honda Sonic 150R dalam persaingan otomotif Indonesia.
 ---
 
 Mari kita putar waktu sejenak ke era di mana motor "Ayam Jago" atau Ayago menjadi simbol supremasi di jalanan. Dulu, rasanya belum sah disebut bikers sejati kalau belum menunggangi motor berdesain ramping dengan setang jepit ini. Selama bertahun-tahun, Suzuki Satria F150 melenggang sendirian tanpa lawan yang sepadan, menikmati takhta sebagai raja jalanan. Melihat dominasi tersebut, Honda tentu tidak tinggal diam. Tepat pada tahun 2015, mereka membangkitkan kembali nama legendaris dengan merilis Honda Sonic 150R. Mengusung mesin baru DOHC 150cc yang near square, motor ini memikul misi besar untuk meruntuhkan dominasi sang raja dan merebut kembali kejayaan masa lalu. Di atas kertas, Sonic 150R punya segala modal untuk sukses.

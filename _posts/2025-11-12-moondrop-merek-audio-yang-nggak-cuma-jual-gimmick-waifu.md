@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Moondrop: Merek Audio yang Nggak Cuma Jual Gimmick Waifu"
-date: "2025-11-12"
-description: "Kenapa Moondrop bisa jadi favorit banyak orang? Bukan cuma karena waifu di kotaknya, tapi karena mereka serius meracik suara yang natural dan enak."
-image: "/assets/images/posts/moondrop.webp"
-categories: [Review, Audio]
-tags: [Moondrop, IEM, Chi-Fi, Audiophile, TWS Terbaik, Review Audio]
+title: 'Moondrop: Merek Audio yang Nggak Cuma Jual Gimmick Waifu'
+date: '2025-11-12'
+description: Kenapa Moondrop bisa jadi favorit banyak orang? Bukan cuma karena waifu
+  di kotaknya, tapi karena mereka serius meracik suara yang natural dan enak.
+image: /assets/images/posts/moondrop.webp
+categories: [Kultur Pop]
+tags: [Audiophile, Chi-Fi, IEM, Moondrop, Review, Review Audio, TWS Terbaik]
 ---
 
 Jika kamu mengikuti dunia audio portable atau Chi-Fi (Chinese Hi-Fi), pasti udah nggak asing lagi sama Moondrop. Brand audio asal China ini unik banget. Di saat merek lain sibuk jualan spesifikasi teknis yang bikin pusing kepala (seperti driver beryllium, tribrid, dan semacamnya), Moondrop justru datang dengan pendekatan yang beda yaitu suara yang enak, kemasan bernuansa anime, dan marketing yang "wibu" abis. Tapi, kalau cuma modal jualan gambar "waifu" kartun, mereka jelas nggak bakal bertahan lama, karena kunci utama kesuksesan mereka tetap ada di kualitas suaranya (sound quality). Moondrop punya standar tuning-an sendiri yang mereka sebut VDSF (Virtual Diffuse Sound Field). Singkatnya, mereka pengen suara yang keluar dari IEM itu senatural mungkin, seolah-olah kita lagi dengerin speaker di ruangan dengan akustik yang bagus. Hasilnya adalah suara yang bersih, vokal yang maju, dan separasi instrumen yang rapi. Untuk saya pribadi, karakter suara ala Moondrop ini cocok banget untuk dengerin lagu-lagu pop, akustik, atau lagu anisong yang vokal penyanyi perempuannya dominan.

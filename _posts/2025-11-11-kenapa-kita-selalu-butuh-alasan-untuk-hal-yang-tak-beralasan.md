@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Kenapa Kita Selalu Butuh Alasan untuk Hal yang Tak Beralasan"
-date: "2025-11-11"
-excerpt: "Mengapa otak kita terus mencari sebab-akibat, bahkan ketika peristiwa terjadi secara kebetulan? Artikel ini membahas dorongan manusia untuk memberi makna pada kekacauan."
-image: "/assets/images/posts/human.webp"
-categories: [Psikologi, Filosofi, Kognitif]
+title: Kenapa Kita Selalu Butuh Alasan untuk Hal yang Tak Beralasan
+date: '2025-11-11'
+excerpt: Mengapa otak kita terus mencari sebab-akibat, bahkan ketika peristiwa terjadi
+  secara kebetulan? Artikel ini membahas dorongan manusia untuk memberi makna pada
+  kekacauan.
+image: /assets/images/posts/human.webp
+categories: [Opini & Refleksi]
 tags: [Alasan, Keacakan, Kontrol, Narasi]
 ---
 

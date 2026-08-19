@@ -1,0 +1,29 @@
+    <!-- Share Section -->
+    <div class="share-section mt-5 border-top pt-4 border-secondary-subtle d-flex align-items-center flex-wrap gap-3">
+      <h6 class="fw-bold mb-0 me-2 text-uppercase tracking-wider" style="letter-spacing: 1px;"><i class="bi bi-share me-2"></i>Bagikan</h6>
+      <div class="d-flex gap-2">
+        <!-- Twitter / X -->
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}"
+           target="_blank" class="share-btn twitter" aria-label="Bagikan ke Twitter" title="Bagikan ke X/Twitter">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        
+        <!-- WhatsApp -->
+        <a href="https://wa.me/?text={{ page.title | url_encode }}%20{{ site.url }}{{ page.url }}"
+           target="_blank" class="share-btn whatsapp" aria-label="Bagikan ke WhatsApp" title="Bagikan ke WhatsApp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+           target="_blank" class="share-btn facebook" aria-label="Bagikan ke Facebook" title="Bagikan ke Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <!-- Copy Link -->
+        <button id="copyLinkBtn" data-url="{{ site.url }}{{ page.url }}"
+           class="share-btn copy border-0" aria-label="Salin Tautan" title="Copy Link">
+          <i class="bi bi-link-45deg"></i>
+        </button>
+      </div>
+    </div>

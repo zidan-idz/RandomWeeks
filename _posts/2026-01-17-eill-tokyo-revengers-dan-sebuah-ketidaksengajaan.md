@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "eill, Tokyo Revengers, dan Sebuah Ketidaksengajaan"
+title: eill, Tokyo Revengers, dan Sebuah Ketidaksengajaan
 date: 2026-01-17
-categories: [Musik, Opini]
-tags: [eill, Tokyo Revengers, J-Pop, The Tunnel to Summer, Anisong]
+categories: [Kultur Pop, Opini & Refleksi]
+tags: [Anisong, J-Pop, The Tunnel to Summer, Tokyo Revengers, eill]
 image: /assets/images/posts/eill.png
-description: "Dari sekadar anisong biasa di Tokyo Revengers dan The Tunnel to Summer, beginilah cerita bagaimana suara eill berhasil mendominasi playlist saya sehari-hari."
-keywords:
-  ["eill", "Koko de Iki wo Shite", "Tokyo Revengers", "The Tunnel to Summer", "Anisong", "Review Musik"]
+description: Dari sekadar anisong biasa di Tokyo Revengers dan The Tunnel to Summer,
+  beginilah cerita bagaimana suara eill berhasil mendominasi playlist saya sehari-hari.
+keywords: [eill, Koko de Iki wo Shite, Tokyo Revengers, The Tunnel to Summer, Anisong,
+  Review Musik]
 ---
 
 Hubungan saya dengan anime Tokyo Revengers sebenarnya agak unik. Saat anime ini meledak di Indonesia sekitar tahun 2021, saya ikut menontonnya seperti kebanyakan orang lain. Jujur saja, impresi saya terhadap ceritanya datar dan biasa saja. Tidak ada sesuatu yang membuat saya ingin memujinya berlebihan. Tapi anehnya, saya tetap bersyukur pernah menonton anime ini. Alasannya sederhana, lagu penutupnya.

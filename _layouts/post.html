@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<!-- Reading Progress Bar -->
-<div class="progress-container position-fixed top-0 start-0 w-100" style="height: 4px; z-index: 9999; background: transparent;">
-  <div class="progress-bar bg-primary h-100" id="readingProgressBar" style="width: 0%; transition: width 0.1s;"></div>
-</div>
+
 
 <!-- Header gambar utama -->
 {% if page.image %}
@@ -15,7 +12,7 @@ layout: default
   <div class="container-xl position-absolute top-50 start-50 translate-middle text-center text-white">
     <h1 class="fw-bold display-5">{{ page.title }}</h1>
     <p class="mt-3 text-secondary small">
-      <i class="bi bi-calendar-event"></i> {{ page.date | date: "%d %B %Y" }}
+      <span class="time-ago" data-date="{{ page.date | date_to_xmlschema }}"><i class="bi bi-calendar-event"></i> {{ page.date | date: "%d %B %Y" }}</span>
 
       {% if page.author %}
       &nbsp;&bull;&nbsp;
@@ -39,108 +36,33 @@ layout: default
 </header>
 {% endif %}
 
-
 <!-- Konten utama -->
 <article class="post-content py-5">
-  <div class="container-xl col-lg-8 text-light rounded-4 shadow-sm px-0 px-lg-3 py-1">
-    
-    {% if page.toc != false %}
-    <div class="toc-wrapper mb-5 p-4 rounded-4" style="background-color: #1a1e24; border: 1px solid #2a2f36;">
-      <h5 class="fw-bold mb-3 text-white"><i class="bi bi-card-list"></i> Daftar Isi</h5>
-      {{ content | toc_only }}
-    </div>
-    {% endif %}
-
-    {{ content }}
-
-    <!-- Share Section -->
-    <div class="share-section mt-5 border-top pt-4" style="border-color: #2a2f36 !important;">
-      <h5 class="fw-bold mb-3"><i class="bi bi-share"></i> Bagikan:</h5>
-      <div class="d-flex gap-2 flex-wrap">
-        <!-- Twitter / X -->
-        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}"
-           target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3">
-          <i class="bi bi-twitter-x"></i> X / Twitter
-        </a>
+  <div class="container-xl">
+    <div class="row">
+      <div class="col-12 text-light px-3 py-1">
         
-        <!-- WhatsApp -->
-        <a href="https://wa.me/?text={{ page.title | url_encode }}%20{{ site.url }}{{ page.url }}"
-           target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3">
-          <i class="bi bi-whatsapp"></i> WhatsApp
-        </a>
 
-        <!-- Facebook -->
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
-           target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-3">
-          <i class="bi bi-facebook"></i> Facebook
-        </a>
 
-        <!-- Copy Link -->
-        <button id="copyLinkBtn" data-url="{{ site.url }}{{ page.url }}"
-           class="btn btn-outline-light btn-sm rounded-pill px-3">
-          <i class="bi bi-link-45deg"></i> Copy Link
-        </button>
-      </div>
-    </div>
+        {{ content }}
 
-    <!-- Related Posts -->
-    {% if site.related_posts.size > 0 %}
-    <div class="related-posts mt-5 border-top pt-4" style="border-color: #2a2f36 !important;">
-      <h5 class="fw-bold mb-3"><i class="bi bi-journal-plus"></i> Artikel Terkait:</h5>
-      <div class="row g-3">
-        {% for related in site.related_posts limit:2 %}
-        <div class="col-md-6">
-          <a href="{{ related.url | relative_url }}" class="text-decoration-none">
-            <div class="p-3 border rounded-4 hover-shadow-sm h-100" style="background-color: #1a1e24; border-color: #2a2f36 !important;">
-              <h6 class="text-light fw-bold mb-2" style="line-height: 1.4;">{{ related.title }}</h6>
-              <small class="text-muted"><i class="bi bi-calendar3"></i> {{ related.date | date: "%d %B %Y" }}</small>
-            </div>
-          </a>
+        {% if page.tags.size > 0 %}
+        <div class="post-tags mt-5 pt-3 border-top border-secondary-subtle">
+          <i class="bi bi-tags text-muted me-2"></i>
+          {% for tag in page.tags %}
+          {% assign tag_slug = tag | slugify %}
+          <a href="{{ '/tag/' | append: tag_slug | append: '/' | relative_url }}" class="badge rounded-pill border border-secondary text-secondary text-decoration-none me-1 hover-primary">{{ tag }}</a>
+          {% endfor %}
         </div>
-        {% endfor %}
+        {% endif %}
+
+        {% include post_share.html %}
+        {% include post_related.html %}
+
+        {% include post_comments.html %}
+
       </div>
     </div>
-    {% endif %}
-
-    <!-- Navigasi Postingan -->
-    <div class="d-flex justify-content-between mt-5 border-top pt-4" style="border-color: #2a2f36 !important;">
-      {% if page.previous %}
-        <a href="{{ page.previous.url | relative_url }}" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
-          <i class="bi bi-arrow-left"></i> Previous Post
-        </a>
-      {% else %}
-        <div></div>
-      {% endif %}
-      
-      {% if page.next %}
-        <a href="{{ page.next.url | relative_url }}" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
-          Next Post <i class="bi bi-arrow-right"></i>
-        </a>
-      {% else %}
-        <div></div>
-      {% endif %}
-    </div>
-
-    <!-- Giscus Comments -->
-    <div class="comments-section mt-5 border-top pt-4" style="border-color: #2a2f36 !important;">
-      <h5 class="fw-bold mb-3"><i class="bi bi-chat-text"></i> Komentar:</h5>
-      <script src="https://giscus.app/client.js"
-        data-repo="zidan-idz/RW-Com"
-        data-repo-id="R_kgDOOIdUWw"
-        data-category="General"
-        data-category-id="DIC_kwDOOIdUW84C5tTR"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="transparent_dark"
-        data-lang="id"
-        crossorigin="anonymous"
-        async>
-</script>
-    </div>
-
   </div>
 </article>
 

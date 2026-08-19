@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Resolusi Pandangan Terbatas"
+title: Resolusi Pandangan Terbatas
 date: 2026-03-16
-categories: [Opini, Life]
-tags: [Mata Minus, Kesalahpahaman, Fokus, Rabun Jauh, Kehidupan]
+categories: [Opini & Refleksi]
+tags: [Fokus, Kehidupan, Kesalahpahaman, Mata Minus, Rabun Jauh]
 image: /assets/images/posts/blur.jpg
-description: "Sebuah coretan jujur tentang bagaimana keterbatasan pandangan akibat mata minus sering kali disalahartikan sebagai sikap sombong atau cuek saat berpapasan di jalan."
-keywords: ["Mata Minus", "Sombong", "Kesalahpahaman", "Fokus", "Rabun Jauh"]
+description: Sebuah coretan jujur tentang bagaimana keterbatasan pandangan akibat
+  mata minus sering kali disalahartikan sebagai sikap sombong atau cuek saat berpapasan
+  di jalan.
+keywords: [Mata Minus, Sombong, Kesalahpahaman, Fokus, Rabun Jauh]
 ---
 
 Pernah ngga sih seseorang dicap sombong atau belagu cuma karena tidak menyapa teman yang berpapasan di jalan? Jujur, pengalaman ini sering sekali saya alami sampai rasanya ingin menunjukkan apa yang sebenarnya saya lihat saat itu. Masalahnya bukan karena sengaja ingin cuek, tapi saat sedang berkendara atau jalan kaki, fokus saya benar-benar tersita sepenuhnya ke arah depan demi keselamatan. Konsentrasi ke jalan raya jauh lebih penting daripada harus terus-menerus memantau siapa saja yang lewat. Kadang saking fokusnya, orang yang melambaikan tangan pun hanya lewat begitu saja di ingatan karena otak sedang dalam mode siaga.

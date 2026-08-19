@@ -1,19 +1,15 @@
 ---
 layout: post
-title: "Dedikasi di Balik Bayangan"
+title: Dedikasi di Balik Bayangan
 date: 2025-12-03
-categories: [Anime, Opini]
-tags: [The Eminence in Shadow, Cid Kagenou, Isekai, Analisis Karakter, Satire]
+categories: [Kultur Pop, Opini & Refleksi]
+tags: [Analisis Karakter, Cid Kagenou, Isekai, Satire, The Eminence in Shadow]
 image: /assets/images/posts/cid.webp
-description: "Cid Kagenou adalah simbol dedikasi mutlak. Opini tentang bagaimana mentalitas bajanya mematahkan standar klise isekai dan menjadikannya Penguasa Bayangan yang sesungguhnya."
-keywords:
-  [
-    "Cid Kagenou",
-    "The Eminence in Shadow",
-    "Kage no Jitsuryokusha ni Naritakute",
-    "Analisis Karakter Anime",
-    "Kritik Isekai",
-  ]
+description: Cid Kagenou adalah simbol dedikasi mutlak. Opini tentang bagaimana mentalitas
+  bajanya mematahkan standar klise isekai dan menjadikannya Penguasa Bayangan yang
+  sesungguhnya.
+keywords: [Cid Kagenou, The Eminence in Shadow, Kage no Jitsuryokusha ni Naritakute,
+  Analisis Karakter Anime, Kritik Isekai]
 ---
 
 Industri anime belakangan ini rasanya memang sedang tidak baik-baik saja karena kita terlalu sering disuguhi tontonan yang polanya itu-itu melulu. Setiap musim selalu saja muncul judul isekai baru dengan premis yang sangat pasaran dan membosankan. Kita dipaksa menonton karakter utama laki-laki yang desainnya standar lalu mati konyol dan tiba-tiba mendapat kekuatan super dari dewa tanpa usaha sedikitpun. Parahnya lagi para karakter utama instan ini biasanya tidak punya tujuan hidup yang jelas selain berleha-leha menikmati hidup santai atau sekadar pamer kekuatan di depan orang lemah.

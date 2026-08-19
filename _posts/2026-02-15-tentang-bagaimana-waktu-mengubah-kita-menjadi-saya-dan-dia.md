@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 'Tentang Bagaimana Waktu Mengubah "Kita" Menjadi "Saya" dan "Dia"'
+title: Tentang Bagaimana Waktu Mengubah "Kita" Menjadi "Saya" dan "Dia"
 date: 2026-02-15
-categories: [Opini, Life]
-tags: [Waktu, Persahabatan, Pendewasaan, Kenangan, Jarak]
+categories: [Opini & Refleksi]
+tags: [Jarak, Kenangan, Pendewasaan, Persahabatan, Waktu]
 image: /assets/images/posts/PassingBy.webp
-description: "Sebuah refleksi tentang bagaimana waktu secara perlahan mengubah kedekatan menjadi jarak, dan merubah 'kita' menjadi dua orang asing yang saling mengenal."
-keywords: ["Waktu", "Persahabatan", "Beranjak Dewasa", "Jarak", "Kenangan"]
+description: Sebuah refleksi tentang bagaimana waktu secara perlahan mengubah kedekatan
+  menjadi jarak, dan merubah 'kita' menjadi dua orang asing yang saling mengenal.
+keywords: [Waktu, Persahabatan, Beranjak Dewasa, Jarak, Kenangan]
 ---
 
 **Kadang lucu rasanya melihat bagaimana hidup bekerja.**

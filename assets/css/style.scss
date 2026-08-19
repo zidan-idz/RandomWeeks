@@ -1,4 +1,4 @@
----
+﻿---
 ---
 
 /* ============================================================
@@ -107,10 +107,8 @@ body {
 
 /* Cinematic Post Card */
 .card-cinematic {
-  min-height: 380px;
   /* Responsive shrink for mobile screens */
   @media (max-width: 768px) {
-    min-height: 250px !important;
     
     h5.fw-bold {
       font-size: 1.05rem !important;
@@ -265,48 +263,6 @@ body {
 /* ============================================================
    UTILITIES & COMPONENTS
 ============================================================ */
-/* Popup Menu */
-.popup-menu {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(18, 20, 23, 0.98);
-  backdrop-filter: blur(6px);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 1050;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  
-  &.active {
-    display: flex !important;
-    opacity: 1;
-  }
-}
-
-.popup-content {
-  text-align: center;
-  animation: fadeSlideIn 0.3s ease;
-}
-
-@keyframes fadeSlideIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.popup-menu .btn-close {
-  filter: invert(1);
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-  
-  &:hover { opacity: 1; }
-}
-
-@media (min-width: 992px) {
-  #popupMenu { display: none !important; }
-}
 
 /* Back to Top */
 #backToTop {
@@ -332,4 +288,178 @@ body {
 
 .object-fit-cover {
   object-fit: cover;
+}
+/* Card Cinematic Text Clamp */
+.card-cinematic .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .card-cinematic {
+    padding: 1.25rem;
+  }
+  .card-cinematic .card-title {
+    font-size: clamp(1.1rem, 4vw, 1.3rem) !important;
+  }
+  .card-cinematic .card-text {
+    -webkit-line-clamp: 1;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 576px) {
+  .card-cinematic h5 {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* ============================================================
+   SHARE BUTTONS
+============================================================ */
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.08);
+  color: #c9d1d9;
+  font-size: 1.15rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.share-btn:hover {
+  transform: translateY(-4px);
+  color: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+.share-btn.twitter:hover { background-color: #000000; }
+.share-btn.whatsapp:hover { background-color: #25D366; }
+.share-btn.facebook:hover { background-color: #1877F2; }
+.share-btn.copy:hover { background-color: #6c757d; }
+
+/* ============================================================
+   COMMAND PALETTE
+============================================================ */
+.cmd-palette-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(18, 20, 23, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15vh;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.cmd-palette-overlay:not(.d-none) {
+  opacity: 1;
+}
+.cmd-palette-container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #1c1e22;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.1);
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: transform 0.2s ease;
+}
+.cmd-palette-overlay:not(.d-none) .cmd-palette-container {
+  transform: scale(1);
+}
+.cmd-palette-header {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.cmd-palette-header .cmd-icon {
+  font-size: 1.2rem;
+  color: #adb5bd;
+  margin-right: 15px;
+}
+#cmdInput {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  outline: none;
+}
+#cmdInput::placeholder {
+  color: #6c757d;
+}
+.cmd-esc {
+  font-size: 0.75rem;
+  color: #6c757d;
+  background: rgba(255,255,255,0.05);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.cmd-palette-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.cmd-group {
+  padding: 10px 0;
+}
+.cmd-group-title {
+  font-size: 0.75rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+}
+.cmd-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cmd-item {
+  padding: 12px 20px;
+  color: #e9ecef;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.cmd-item.active, .cmd-item:hover {
+  background-color: rgba(255,255,255,0.05);
+  color: white;
+}
+.cmd-item .bi {
+  color: #adb5bd;
+}
+.cmd-item.active .bi, .cmd-item:hover .bi {
+  color: white;
+}
+.cmd-palette-footer {
+  padding: 10px 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  background-color: rgba(0,0,0,0.2);
+  font-size: 0.8rem;
+}
+.cmd-palette-footer kbd {
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #adb5bd;
+}
+
+/* ============================================================
+   STICKY HELPERS
+============================================================ */
+@media (min-width: 992px) {
+  .hero-sticky {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+    z-index: 10;
+  }
 }

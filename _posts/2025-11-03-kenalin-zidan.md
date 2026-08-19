@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Kenalin, Zidan."
+title: Kenalin, Zidan.
 date: 2025-11-03
-excerpt: "Catatan singkat tentang diri saya, ditulis tanpa niat mengesankan siapa pun."
+excerpt: Catatan singkat tentang diri saya, ditulis tanpa niat mengesankan siapa pun.
 image: /assets/images/main/face.webp
-categories: [Pribadi, Profil]
-tags: [MuhammadRaidZaidani, Mahasiswa]
+categories: [Jurnal Pribadi]
+tags: [Mahasiswa, MuhammadRaidZaidani]
 ---
 
 #### Halo, saya Zidan.

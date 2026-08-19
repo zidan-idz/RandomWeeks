@@ -1,0 +1,37 @@
+<a href="{{ include.post.url | relative_url }}" class="post-card d-block text-decoration-none rounded-4 overflow-hidden position-relative shadow-sm border-0 transition-fade" style="aspect-ratio: 16 / 9; width: 100%;">
+  
+  {% if include.post.image %}
+  <img src="{{ include.post.image | relative_url }}" alt="{{ include.post.title }}" loading="lazy" class="post-thumb object-fit-cover position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1; transition: transform 0.5s ease;">
+  {% else %}
+  <div class="post-thumb placeholder position-absolute w-100 h-100" style="top: 0; left: 0; z-index: 1; background-color: #2a2f36;"></div>
+  {% endif %}
+  
+  <!-- Overlay Gradient Dipertebal -->
+  <div class="overlay position-absolute w-100 h-100" style="background: linear-gradient(to top, rgba(12, 14, 17, 1) 0%, rgba(12, 14, 17, 0.9) 35%, rgba(12, 14, 17, 0.4) 70%, rgba(0,0,0,0) 100%); top: 0; left: 0; z-index: 2; transition: background 0.3s ease;"></div>
+
+  <div class="post-info card-cinematic bg-transparent position-relative d-flex flex-column justify-content-end h-100 p-3 p-md-4 text-start text-white" style="z-index: 3;">
+    
+    <div class="mb-auto"></div>
+    
+    <!-- Meta: Kategori & Tanggal Sebaris (Hemat Tempat) -->
+    <div class="d-flex align-items-center mb-2 gap-2 flex-wrap">
+      {% if include.post.categories.size > 0 %}
+        <span class="badge rounded-pill px-3 py-1" style="background-color: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #e2e8f0; font-size: 0.7rem; font-weight: 500; backdrop-filter: blur(5px);">
+          {{ include.post.categories.first }}
+        </span>
+      {% endif %}
+      <span class="text-light time-ago" style="font-size: 0.75rem; opacity: 0.7;" data-date="{{ include.post.date | date_to_xmlschema }}"><i class="bi bi-calendar3 me-1"></i> {{ include.post.date | date: "%d %b %Y" }}</span>
+    </div>
+    
+    <!-- Judul -->
+    <h5 class="fw-bold mb-2 text-white" style="text-shadow: 0 2px 4px rgba(0,0,0,0.9); line-height: 1.4;">{{ include.post.title }}</h5>
+    
+    <!-- Excerpt (DIPENDEKKAN AGAR TIDAK TERPOTONG) -->
+    <p class="card-text text-light small mb-0" style="line-height: 1.5; opacity: 0.85; text-shadow: 0 1px 3px rgba(0,0,0,0.9);">
+      {% assign card_desc = include.post.description | default: include.post.excerpt %}
+      {{ card_desc | strip_html | truncate: 85 }}
+    </p>
+    
+  </div>
+</a>
+

@@ -1,59 +1,78 @@
-document.addEventListener('DOMContentLoaded', () => {
-    
-    // Config: Snappy & Cepat ⚡
-    const baseDuration = 800; // Lebih cepat (dari 1000ms)
-    const baseDistance = '30px'; 
+function initAnimations() {
+    const baseDuration = 800;
+    const baseDistance = '40px'; 
 
-    // 1. Navbar & Header (Turun dari atas)
-    anime({
-        targets: ['header.site-header', '.navbar'],
-        translateY: ['-100%', 0],
-        opacity: [0, 1],
-        duration: baseDuration,
-        easing: 'easeOutExpo',
-        complete: function(anim) {
-            // Fix: Hapus transform setelah animasi selesai (jika header ada)
-            const header = document.querySelector('header.site-header');
-            if (header) header.style.transform = '';
+    // 1. Animasi Segera (Above the Fold)
+    const header = document.querySelector('header.site-header');
+    if (header && !header.style.opacity) {
+      anime({
+          targets: ['header.site-header', '.hero-section h1', '.hero-section p', '.post-header'],
+          translateY: ['-20px', 0],
+          opacity: [0, 1],
+          duration: baseDuration,
+          easing: 'easeOutExpo',
+          delay: anime.stagger(100),
+          complete: function() {
+              if (header) header.style.transform = '';
+          }
+      });
+    }
+
+    // 2. Animasi Scroll Reveal (Parallax Fade-in)
+    // Ambil elemen-elemen yang butuh animasi saat di-scroll
+    const revealElements = document.querySelectorAll(`
+        .posts-section .post-card,
+        .hero-section .post-card,
+        .post-content > p,
+        .post-content > h2,
+        .post-content > h3,
+        .post-content > ul,
+        .post-content > ol,
+        .post-content > blockquote,
+        .post-content > img,
+        .share-section,
+        .related-posts .card,
+        .comments-section,
+        footer.site-footer
+    `);
+
+    // Sembunyikan state awal agar siap di-reveal
+    revealElements.forEach(el => {
+        if (!el.classList.contains('revealed')) {
+            el.style.opacity = '0';
+            el.style.transform = `translateY(${baseDistance})`;
         }
     });
 
-    // 2. Konten Utama (Naik dari bawah dengan Stagger Cepat)
-    anime({
-        targets: [
-            '.page-content', 
-            '.post-content', 
-            'main h1', 
-            'main h2', 
-            'main p',
-            '.post-list li',      
-            '.row .col',          
-            '.card',              
-            '.post-card'          
-        ],
-        translateY: [baseDistance, 0],
-        opacity: [0, 1],
-        duration: baseDuration, // 800ms
-        easing: 'easeOutQuart',
-        delay: 0 // Langsung muncul tanpa antri (No Stagger)
+    // Buat Observer
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const target = entry.target;
+                
+                anime({
+                    targets: target,
+                    translateY: [baseDistance, 0],
+                    opacity: [0, 1],
+                    duration: 1000,
+                    easing: 'easeOutQuart'
+                });
+                
+                target.classList.add('revealed');
+                obs.unobserve(target); // Stop mengamati setelah muncul
+            }
+        });
+    }, {
+        threshold: 0.1, // Trigger saat 10% elemen masuk layar
+        rootMargin: "0px 0px -50px 0px" // Trigger sedikit sebelum elemen benar-benar menyentuh bawah layar
     });
 
-    // 3. Elemen Dekoratif / Tombol
-    anime({
-        targets: ['.btn', '.badge', '.social-links a'],
-        scale: [0.8, 1],
-        opacity: [0, 1],
-        duration: 600,
-        easing: 'spring(1, 80, 10, 0)',
-        delay: anime.stagger(50, {start: 400}) // Start 400ms
+    // Mulai mengamati
+    revealElements.forEach(el => {
+        if (!el.classList.contains('revealed')) {
+            observer.observe(el);
+        }
     });
+}
 
-    // 4. Footer
-    anime({
-        targets: 'footer.site-footer',
-        opacity: [0, 1],
-        duration: baseDuration,
-        easing: 'linear',
-        delay: 600 // Muncul lebih awal
-    });
-});
+document.addEventListener('DOMContentLoaded', initAnimations);

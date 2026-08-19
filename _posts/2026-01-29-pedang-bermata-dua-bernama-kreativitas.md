@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'Pedang Bermata Dua Bernama "Kreativitas"'
+title: Pedang Bermata Dua Bernama "Kreativitas"
 date: 2026-01-29
-categories: [Opini, Life]
-tags: [Kreativitas, Ide, Overthinking, Perfeksionisme, Self-Reflection]
+categories: [Opini & Refleksi]
+tags: [Ide, Kreativitas, Overthinking, Perfeksionisme, Self-Reflection]
 image: /assets/images/posts/creativity.webp
-description: "Sebuah refleksi tentang sisi lain dari kreativitas yang berlebihan, di mana ide yang tak terbendung justru bisa menjadi beban mental dan penghambat produktivitas."
-keywords:
-  ["Kreativitas", "Beban Mental", "Perfeksionisme", "Manajemen Ide", "Skripsi"]
+description: Sebuah refleksi tentang sisi lain dari kreativitas yang berlebihan, di
+  mana ide yang tak terbendung justru bisa menjadi beban mental dan penghambat produktivitas.
+keywords: [Kreativitas, Beban Mental, Perfeksionisme, Manajemen Ide, Skripsi]
 ---
 
 **Banyak yang bilang kalau punya banyak ide itu anugerah.**

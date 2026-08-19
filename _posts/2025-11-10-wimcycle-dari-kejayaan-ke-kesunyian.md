@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Wimcycle: Dari Kejayaan ke Kesunyian"
-date: "2025-11-10"
-excerpt: "Menceritakan perjalanan Wimcycle, dari awal berdirinya di Surabaya, masa kejayaan sebagai Superbrand, hingga tantangan persaingan dan krisis keuangan di tahun 2025."
-image: "/assets/images/posts/wimcycle.webp"
-categories: [Artikel, Industri, Sejarah, Bisnis]
-tags: [Wimcycle, Sepeda, Industri, MadeInIndonesia]
+title: 'Wimcycle: Dari Kejayaan ke Kesunyian'
+date: '2025-11-10'
+excerpt: Menceritakan perjalanan Wimcycle, dari awal berdirinya di Surabaya, masa
+  kejayaan sebagai Superbrand, hingga tantangan persaingan dan krisis keuangan di
+  tahun 2025.
+image: /assets/images/posts/wimcycle.webp
+categories: [Sains & Industri]
+tags: [Artikel, Industri, MadeInIndonesia, Sepeda, Wimcycle]
 ---
 
 Setiap kali kita mengenang merek sepeda lokal Indonesia yang pernah berjaya, **Wimcycle** menjadi satu nama yang tidak bisa dilewatkan. Namun, seperti banyak kisah gemilang lainnya yang kemudian meredup, Wimcycle kini berada dalam fase yang jauh berbeda: masih hadir, tetapi tidak lagi se-masif dahulu. Artikel ini menceritakan perjalanan Wimcycle: bagaimana berdirinya, puncak keemasannya, hingga tantangan yang membawanya ke situasi sekarang (tahun 2025).

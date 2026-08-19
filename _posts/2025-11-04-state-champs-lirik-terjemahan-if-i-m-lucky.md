@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "State Champs: Lirik & Terjemahan 'If I’m Lucky'"
+title: 'State Champs: Lirik & Terjemahan ''If I’m Lucky'''
 date: 2025-11-04
-excerpt: "Lirik asli dan terjemahan lagu 'If I'm Lucky' oleh State Champs."
+excerpt: Lirik asli dan terjemahan lagu 'If I'm Lucky' oleh State Champs.
 image: /assets/images/posts/ifimlucky.webp
-categories: [Music]
-tags: [State Champs, Pop Punk, Lirik, Terjemahan]
+categories: [Kultur Pop]
+tags: [Lirik, Pop Punk, State Champs, Terjemahan]
 ---
 
 #### Lirik & Terjemahan

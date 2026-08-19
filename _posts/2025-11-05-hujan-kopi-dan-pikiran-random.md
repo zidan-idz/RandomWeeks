@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Hujan, Kopi, dan Pikiran Random."
-date: "2025-11-05"
-excerpt: "Kadang hujan cuma air yang jatuh, kadang dia jadi alasan buat ngelamun sejam lebih."
-image: "/assets/images/posts/rain.webp"
-categories: [Refleksi, Harian]
-tags: [Hujan, Malam, Chill]
+title: Hujan, Kopi, dan Pikiran Random.
+date: '2025-11-05'
+excerpt: Kadang hujan cuma air yang jatuh, kadang dia jadi alasan buat ngelamun sejam
+  lebih.
+image: /assets/images/posts/rain.webp
+categories: [Opini & Refleksi, Jurnal Pribadi]
+tags: [Chill, Hujan, Malam]
 ---
 
 Sore ini hujan deres banget.

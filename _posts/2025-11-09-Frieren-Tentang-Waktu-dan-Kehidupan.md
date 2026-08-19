@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Frieren: Tentang Waktu dan Kehidupan"
-date: "2025-11-09"
-excerpt: "Sebuah refleksi dari anime Frieren yang menelusuri makna waktu, kehidupan, dan hubungan antarmanusia melalui perjalanan sang penyihir abadi."
-image: "/assets/images/posts/frieren.webp"
-categories: [Artikel, Anime, Review]
-tags: [Frieren, Anime, Fantasy, Refleksi, Storytelling]
+title: 'Frieren: Tentang Waktu dan Kehidupan'
+date: '2025-11-09'
+excerpt: Sebuah refleksi dari anime Frieren yang menelusuri makna waktu, kehidupan,
+  dan hubungan antarmanusia melalui perjalanan sang penyihir abadi.
+image: /assets/images/posts/frieren.webp
+categories: [Kultur Pop]
+tags: [Anime, Artikel, Fantasy, Frieren, Refleksi, Review, Storytelling]
 ---
 
 Frieren Beyond Journey’s End bukan sekadar kisah fantasi tentang penyihir dan pahlawan. Ia adalah perjalanan batin tentang waktu, kehidupan, dan makna hubungan antarmanusia. Setelah era para pahlawan berakhir, Frieren seorang elf yang hidup nyaris abadi menyadari bahwa waktu yang panjang bukan berarti memahami kehidupan. Kepergian teman-temannya membuka ruang kosong yang perlahan diisi oleh penyesalan dan keinginan untuk mengerti perasaan manusia yang dulu ia abaikan. Anime ini menampilkan perjalanan Frieren menyusuri dunia lama, bukan untuk menaklukkan monster, tapi untuk memahami kenangan, emosi, dan arti kebersamaan. Setiap pertemuan baru menjadi pelajaran kecil tentang hidup bahwa nilai dari sebuah hubungan bukan diukur dari lamanya waktu, tapi dari kedalaman perasaan yang tercipta di dalamnya.
